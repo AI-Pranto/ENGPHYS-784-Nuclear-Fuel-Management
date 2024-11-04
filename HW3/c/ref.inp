@@ -1,0 +1,465 @@
+! OBJECT        : Single 37-element CANDU bundle for ring-by-ring homogenization
+!                 and thin edged for discontinuity factor calculation  
+! CODE          : DRAGON
+! LIBRARY       : WIMLUP IAEA WIMSD4                        
+! CREATED       : 2006/01/14 
+
+
+
+
+*  PARAMETERS FOR THE BUNDLE (ref. Gaould - ORNL-AECL - ORIGEN Validation)                     
+*                                                           *
+
+!Fuel density 10.6 g/cm3 (G)
+!Fuel temperature 1155 K (G)
+
+!Fuelpin sheath outer radius 0.6540 cm (G)
+!Fuel pellet radius (equal to sheath inner radius) 0.6075 cm (G)
+!Number of fuel pins 1, 6, 12, 18 (G)
+
+
+
+!Gap between central pin and first ring 0.2385 cm (C: G)
+!Inner fuel ring radius (7) 1.4885 cm (G)
+!Gap between first ring and second ring 0.037 cm (C: G)
+!Middle fuel ring radius (14) 2.8755 cm (G)
+!Gap between second ring and third ring 0.305cm (C: G)
+!Outer fuel ring radius (21) 4.3305 cm (G)
+!Gap between third ring and pressure tube 0.2634cm (C: G)
+
+!Fuel composition:
+!Central Pin - Nat U 
+!First ring - Nat U 
+!Second ring - Nat U 
+!Third ring - Nat U 
+
+! Pressure tube iner radius - 5.1689 cm
+! Pressure tube outer radius - 5.6032 cm
+! Calandria tube iner radius - 6.4478 cm
+! Calandria tube outer radius - 6.5875 cm
+
+! Lattice pitch - 28.575 cm
+
+! Coolant D2O
+! Atom purity - 99.75 %
+! Density - 0.8360 g/cm3
+! Temperature - 549 K
+
+
+! Moderator D2O
+! Atom purity - 99.91 %
+! Density 1.0829 - g/cm3
+! Temperature - 346 K
+
+
+!NOTE: central pin is denoted by 0, and rings are then 1,2,3, moving outwards.
+
+! Data Structure declarations
+
+  LINKED_LIST TRULIB TRUGEO 
+              TRUTRAK  TRUMATRIX 
+              TRUFLUX   
+                 ;
+
+! File Declarations
+
+  SEQ_BINARY  TRU_TRK ;
+  SEQ_ASCII   PIC_MIX.ps
+              PIC_REG.ps TRU_FLUX TRU_LIB ;
+
+! Module Declarations
+
+  MODULE    GEO: EXCELT: EXCELL: SHI: ASM: LIB: FLU:
+            EDI: UTL: DELETE: FREE: END: INFO: CPO: PSP: ;
+
+
+! Variable Declarations
+
+  REAL      Tcool  Dcool Pcool Tfuel Dfuel0 Dfuel1 Dfuel2 Dfuel3  ;
+  REAL      Pmod Tmod Dmod ppmB hpitch mhpitch hpitchm01 mhpitchm01 ;
+  REAL      wgt1Hm wgt2Dm wgtOXm wgtB  wgtB10 wgtB11 ;
+  REAL      wgt1Hc wgt2Dc wgtOXc wgtU8 wgtOX  wgtU5 
+            wgt8U0 wgtOX0 wgt5U0 wgt8U1 wgtOX1 wgt5U1
+            wgt8U2 wgtOX2 wgt5U2 wgt8U3 wgtOX3 wgt5U3 ;
+  REAL      enrich0 enrich1 enrich2   enrich3 UCon0 OCon0 UCon1 OCon1
+            UCon2 OCon2 UCon3 OCon3     
+             ;
+  REAL      DzrII  Wz1      Wf6    Wc2  Wn8   Wbn    ;
+  
+! Declaring pin radii (fuel pin rad. 1, fuel pin rad. 2, clad rad. 1, clad rad. 2)
+  REAL      fpr  cr ;
+
+! Declaring annulus radii (More variables are declared than are actually used)
+
+  REAL      ar00 ar01 ar02 ar03 ar04 ar05 ar06 ar07 ar08 ar09 
+            ar10 ar11 ar12 ar13 ar14 ar15 ar16 ar17 ar18 ar19 ;
+       
+
+
+! Declaring ring (of fuel pins) radii  
+! (More variables are declared than are actually used)
+  
+  REAL      rr00 rr01 rr02 rr03 rr04 rr05 rr06 rr07 rr08 rr09 
+            rr10 rr11 rr12 rr13 rr14 rr15 rr16 rr17 rr18 rr19 delta ;
+            
+! Declaring  auxiliary variables
+! (More variables are declared than are actually used)
+  
+  REAL      rotangle ;
+            
+
+
+  ! Defining material names instead of numbers for easier reference
+  INTEGER   pTubeMat  gapMat     calTubeMat modMat     ring0Mat 
+            ring1Mat  ring2Mat  ring3Mat  cladMatR0  
+            cladMatR1 cladMatR2 cladMatR3  
+            coolMatR0  coolMatR1  coolMatR2 coolMatR3 
+            fcMatR0   fcMatR1    fcMatR2   fcMatR3   :=
+            1         2          3          4          5      
+            6         7          8          9        
+            10        11         12         
+            13        14         15        16           
+            5         6          7          8 ;
+                       
+  STRING    nam1H   nam2D   namB11 namB10 namZr namFe namCr namNi namNb 
+            namC    namSi   namFA  namMn  namCu namMo namAl namHE namTi
+            namP    namS    namCo  namPb  namN  U238  U235  O16   DY160
+            DY161   DY162   DY163  DY164  U236  PU239 PU240 PU241 
+            PU242   AM241 ;  
+
+  STRING    title1  title2  title3              ;
+
+! Calculate the rotation angle of the second ring of pins.
+
+EVALUATE rotangle := $Pi_R  12.0 / ;
+ECHO rotangle ;
+
+
+! Set the right isotope names for the library that is used (WIMS-D4)
+  EVALUATE  nam1H   nam2D   namB11 namB10 namZr namFe namCr namNi namNb 
+            namC    namSi   namFA  namMn  namCu namMo namAl namHE namTi
+            namP    namS    namCo  namPb  namN  U238  U235  O16   DY160
+            DY161   DY162   DY163  DY164  U236  PU239 PU240 PU241 
+            PU242   AM241 :=
+            "3001" "3002" "11"   "10" "91"    "2056" "52"   "58"  "93" 
+            "2012" "29"   "2056" "55" "3063"  "4095" "27"   "4" "48" 
+            "31"   "32"   "1059" "207"  "14"  "8238" "2235" "6016" "160"
+            "161"  "162"  "163"  "164"  "236" "6239" "1240" "1241" 
+            "242"  "951" ;  
+
+  EVALUATE Tmod   Pmod    ppmB hpitch       mhpitch     
+           hpitchm01 mhpitchm01 := 
+           346.0  99.91   0.0  28.575 2. /  -28.575 2. /  
+           28.575 2. / 0.1 -   -28.575 2. / 0.1 +  ;
+           ! The moderator is heavy water of high purity
+
+  EVALUATE Tcool  Pcool    Tfuel  Dfuel0   Dfuel1 Dfuel2 Dfuel3  := 
+           549.0  99.75    1065.0 10.6     10.6   10.6   10.6      ; 
+           ! The coolant is heavy water of somewhat lower purity
+
+! Set enrichment
+  EVALUATE    enrich0 enrich1 enrich2 enrich3 
+           := 0.711   0.711   0.711   0.711 ;  
+
+! Convert total Boron from weight ppm to % ppm
+  EVALUATE wgtB := ppmB 0.0001 * ;        
+
+! Calculate the weight % of each of the two isotopes of boron
+  EVALUATE wgtB10  := 0.199  wgtB            *        ;
+  EVALUATE wgtB11  := 0.801  wgtB            *        ;
+
+! Set composition of Calandria tube (Zr-II)
+  EVALUATE  DzrII := 6.5                         ;
+  EVALUATE  Wz1       :=
+            100.0     ;
+
+! Set pin radii (fuel pin rad. 1, fuel pin rad. 2, clad rad. 1, clad rad. 2)
+  EVALUATE  fpr    cr       :=
+            0.6075 0.6540  ;
+
+
+! Set ring (of fuel pins) radii
+  
+  EVALUATE delta := 0.2 ;
+  
+  EVALUATE   rr00     rr01     rr02      rr03 :=
+             0.000    1.4885   2.8755    4.3305 ;
+
+
+! Set annulus radii
+
+  EVALUATE  ar00               ar01                
+            ar02 
+            ar03               ar04                ar05 
+            ar06               ar07                ar08      :=
+            0.00               rr00 rr01 + 2.00 /  
+            ! midway between two rings with different pin radii
+            rr02 cr - rr01 cr + - 2.00 / rr01 cr + + 
+            rr02 rr03 + 2.00 / 5.16890             5.6032 
+            6.4478              6.5875             14.2875
+            ;
+
+
+ 
+! ----
+!  MICROSCOPIC CROSS SECTIONS
+!
+! ---
+!
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN THE CENTRAL PIN 
+INFO: ::              ENR: <<enrich0>> WGT%
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3    <<U238>> <<O16>> <<U235>> 
+                      CALC WGT% UO2 >>wgt8U0<< >>wgtOX0<< >>wgt5U0<< ;
+ECHO wgt8U0 wgtOX0 wgt5U0  ;
+
+
+
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN THE FIRST RING 
+INFO: ::              ENR: <<enrich1>> WGT%
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3    <<U238>> <<O16>> <<U235>> 
+                      CALC WGT% UO2 >>wgt8U1<< >>wgtOX1<< >>wgt5U1<< ;
+ECHO wgt8U1 wgtOX1 wgt5U1  ;
+
+
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN RING 2 
+INFO: ::              ENR: <<enrich2>> WGT%
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3    <<U238>> <<O16>> <<U235>> 
+                      CALC WGT% UO2 >>wgt8U2<< >>wgtOX2<< >>wgt5U2<< ;
+
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN RING 3 
+INFO: ::              ENR: <<enrich3>> WGT%
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3    <<U238>> <<O16>> <<U235>> 
+                      CALC WGT% UO2 >>wgt8U3<< >>wgtOX3<< >>wgt5U3<< ;
+
+
+
+! COMPUTE DENSITY AND WGT% FOR COOLANT          
+INFO: ::              TMP: <<Tcool>> K 
+                      PUR: <<Pcool>> ATM% 
+                      CALC DENS WATER >>Dcool<<
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3 <<nam1H>> <<nam2D>> <<O16>> 
+                      CALC WGT% D2O >>wgt1Hc<< >>wgt2Dc<< >>wgtOXc<< ;
+! Void
+!EVALUATE Dcool := Dcool 0.001 * ; 
+
+! COMPUTE DENSITY AND WGT% FOR MODERATOR          
+INFO: ::              TMP: <<Tmod>> K 
+                      PUR: <<Pmod>> ATM% 
+                      CALC DENS WATER >>Dmod<<
+                      LIB: WIMSD4 FIL: IAEALB
+                      ISO: 3 <<nam1H>> <<nam2D>> <<O16>> 
+                      CALC WGT% D2O >>wgt1Hm<< >>wgt2Dm<< >>wgtOXm<< ;
+
+! Set up the "mixtures" (i.e. materials)
+TRULIB := LIB: :: EDIT 0
+    NMIX 18 CTRA WIMS
+    DEPL LIB: WIMSD4 FIL: IAEALB
+    MIXS LIB: WIMSD4 FIL: IAEALB
+
+  MIX  <<coolMatR0>>  <<Tcool>>   <<Dcool>> 
+    H1 = <<nam1H>>    <<wgt1Hc>>  
+    D2 = <<nam2D>>    <<wgt2Dc>> 
+    <<O16>>               <<wgtOXc>>  
+
+  MIX  <<coolMatR1>>  <<Tcool>>   <<Dcool>> 
+    H1 = <<nam1H>>    <<wgt1Hc>>  
+    D2 = <<nam2D>>    <<wgt2Dc>> 
+    <<O16>>               <<wgtOXc>>  
+
+  MIX  <<coolMatR2>>  <<Tcool>>   <<Dcool>> 
+    H1 = <<nam1H>>    <<wgt1Hc>>  
+    D2 = <<nam2D>>    <<wgt2Dc>> 
+    <<O16>>               <<wgtOXc>>  
+
+  MIX  <<coolMatR3>>  <<Tcool>>   <<Dcool>> 
+    H1 = <<nam1H>>    <<wgt1Hc>>  
+    D2 = <<nam2D>>    <<wgt2Dc>> 
+    <<O16>>               <<wgtOXc>>  
+
+  MIX  <<pTubeMat>>  <<Tcool>>    6.5       
+    ZR =  <<namZr>>    97.5   
+    NB =  <<namNb>>    2.5      
+
+  MIX  <<gapMat>>  <<Tmod>>    0.0014     
+    HE4   = <<namHE>>  100.        
+
+  MIX  <<calTubeMat>>  <<Tmod>>    <<DzrII>>       
+    ZR = <<namZr>>     <<Wz1>>
+
+  MIX  <<modMat>>  <<Tmod>>    <<Dmod>>   
+    H1 = <<nam1H>>     <<wgt1Hm>>  
+    D2 = <<nam2D>>     <<wgt2Dm>> 
+    <<O16>>                <<wgtOXm>>  
+   B10 = <<namB10>>    <<wgtB10>>
+   B11 = <<namB11>>    <<wgtB11>>      
+
+! The density has to equal the fuel density, as the combination of mixtures
+! does not allow for a re-definition of the density.
+  MIX  <<ring0Mat>>  <<Tfuel>>  <<Dfuel0>>
+   <<U235>> <<wgt5U0>> 1
+   <<U238>> <<wgt8U0>> 1
+   <<O16>>  <<wgtOX0>> 
+!  Elements added only to specify them as self-shielding (only one
+!  self-shielding region)
+   <<U236>>  0.0   1
+   <<PU239>> 0.0   1 
+   <<PU240>> 0.0   1 
+   <<PU241>> 0.0   1 
+   <<PU242>> 0.0   1 
+   <<AM241>> 0.0   1 
+
+! The density has to equal the fuel density, as the combination of mixtures
+! does not allow for a re-definition of the density.
+  MIX  <<ring1Mat>>  <<Tfuel>>  <<Dfuel1>>
+   <<U235>> <<wgt5U1>> 1
+   <<U238>> <<wgt8U1>> 1
+   <<O16>>  <<wgtOX1>> 
+!  Elements added only to specify them as self-shielding (only one
+!  self-shielding region)
+   <<U236>>  0.0   1
+   <<PU239>> 0.0   1 
+   <<PU240>> 0.0   1 
+   <<PU241>> 0.0   1 
+   <<PU242>> 0.0   1 
+   <<AM241>> 0.0   1 
+
+  MIX  <<ring2Mat>>  <<Tfuel>> <<Dfuel2>> 
+   <<U235>> <<wgt5U2>> 1
+   <<U238>> <<wgt8U2>> 1
+   <<O16>>  <<wgtOX2>> 
+!  Elements added only to specify them as self-shielding (only one
+!  self-shielding region)
+   <<U236>>  0.0   1
+   <<PU239>> 0.0   1 
+   <<PU240>> 0.0   1 
+   <<PU241>> 0.0   1 
+   <<PU242>> 0.0   1 
+   <<AM241>> 0.0   1 
+
+  MIX  <<ring3Mat>>  <<Tfuel>> <<Dfuel3>>
+   <<U235>> <<wgt5U3>> 1
+   <<U238>> <<wgt8U3>> 1
+   <<O16>>  <<wgtOX3>> 
+!  Elements added only to specify them as self-shielding (only one
+!  self-shielding region)
+   <<U236>>  0.0   1
+   <<PU239>> 0.0   1 
+   <<PU240>> 0.0   1 
+   <<PU241>> 0.0   1 
+   <<PU242>> 0.0   1 
+   <<AM241>> 0.0   1 
+
+
+  MIX <<cladMatR0>>  <<Tcool>>    6.5   
+    ZR = <<namZr>>    100.00      
+
+  MIX <<cladMatR1>>  <<Tcool>>    6.5   
+    ZR = <<namZr>>    100.00      
+
+  MIX <<cladMatR2>>  <<Tcool>>    6.5   
+    ZR = <<namZr>>    100.00      
+
+  MIX <<cladMatR3>>  <<Tcool>>    6.5   
+    ZR = <<namZr>>    100.00      
+  ;  
+ 
+ ECHO 'rr01' rr01 ;
+ 
+  TRUGEO := GEO: ::  CARCEL 8 1 1
+  X+ REFL     
+  X- REFL     
+  Y+ REFL     
+  Y- REFL  
+   EDIT 0
+  MESHX <<mhpitch>> <<hpitch>>
+  MESHY <<mhpitch>> <<hpitch>> 
+  
+  RADIUS <<ar00>>       <<ar01>>      <<ar02>>       <<ar03>>    
+         <<ar04>>       <<ar05>>      <<ar06>>       <<ar07>> 
+         <<ar08>>
+  MIX                   <<coolMatR0>> <<coolMatR1>>  <<coolMatR2>>
+         <<coolMatR3>> <<pTubeMat>>  <<gapMat>>     <<calTubeMat>> 
+         <<modMat>>     <<modMat>> 
+
+! Split each coolant anulus (except central that cannot be split because it
+! overlaps the central pin.) and the moderator anulus. 
+  SPLITR 1 5 5 5 2 5 1 15     
+           
+  CLUSTER ROD1 ROD2 ROD3 ROD4
+  ::: ROD1 := GEO: TUBE 2 MIX <<ring0Mat>> <<cladMatR0>> 
+      NPIN  1 RPIN <<rr00>> APIN 0.0000
+      RADIUS 0.00000 <<fpr>>  <<cr>> 
+      SPLITR 4 2 
+       ;
+  ::: ROD2 := GEO: ROD1   MIX <<ring1Mat>> <<cladMatR1>> 
+      NPIN  6 RPIN <<rr01>>   APIN 0.0000 
+      RADIUS 0.00000 <<fpr>>  <<cr>>       
+      SPLITR 4 2 
+       ;
+  ::: ROD3 := GEO: ROD1   MIX <<ring2Mat>> <<cladMatR2>> 
+      NPIN 12 RPIN <<rr02>>  APIN <<rotangle>> 
+      RADIUS 0.00000 <<fpr>>  <<cr>>  
+      SPLITR 4 2 
+       ;
+  ::: ROD4 := GEO: ROD1   MIX <<ring3Mat>> <<cladMatR3>> 
+      NPIN 18 RPIN <<rr03>>  APIN 0.0  
+      RADIUS 0.00000 <<fpr>>  <<cr>>        
+      SPLITR 4 2 
+        ;
+  ;
+
+
+
+
+! Print geometry picture
+PIC_MIX.ps := PSP: TRUGEO :: 
+TYPE MIXTURE
+;
+
+! Print geometry picture
+PIC_REG.ps := PSP: TRUGEO :: 
+TYPE REGION
+;
+
+! Construct the tracking information for the true cell.
+
+TRUTRAK TRU_TRK := EXCELT: TRUGEO :: 
+EDIT 0
+TITLE ' TRUE CELL'
+MAXR 300 TRAK TISO 10 20.0
+;
+
+
+
+! Perform self-shielding calculations
+TRULIB := SHI: TRULIB TRUTRAK TRU_TRK ::  NOLJ
+  EDIT 0 
+  ;
+
+
+! Construct (assemble) the collision probability matrix for the true cell.
+TRUMATRIX := ASM: TRULIB TRUTRAK TRU_TRK ::
+EDIT 0
+;
+
+
+! Solve the flux
+TRUFLUX := FLU: TRUMATRIX TRULIB TRUTRAK ::
+EDIT 1
+!  TYPE B B1 PNL  ;
+;
+
+! Save the flux for the true geometry
+TRU_FLUX := TRUFLUX ;
+
+
+END: ;
+
+QUIT " lalala" .
+
+

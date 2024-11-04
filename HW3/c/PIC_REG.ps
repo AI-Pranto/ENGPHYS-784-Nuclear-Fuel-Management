@@ -1,0 +1,3515 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: PIC_REG.ps
+%%CreationDate: 1999/03/29
+%%Created with: PSPLOT PostScript Plotting Package in DRAGON
+%%Reference: Kevin E. Kohler <kevin@ocean.nova.edu> - DRAGON implementation
+%%EndComments
+/inch {72 mul} bind def
+/Ah {moveto lineto lineto stroke} def
+/Ar {moveto 2 copy lineto 4 -2 roll
+ moveto lineto lineto stroke } def
+/arcit {S /A2 exch def /A1 exch def /Rad exch def
+ /Yc exch def /Xc exch def
+ Xc Rad A1 cos mul add Yc Rad A1 sin mul add
+ moveto newpath
+ Xc Yc Rad A1 A2 arc stroke} def
+/C {/Rad exch def /Yc exch def /Xc exch def
+ Xc Yc Rad 0 360 arc closepath
+ } def
+/c0sf {closepath 0 setgray fill} def
+/cf {closepath fill} def
+/Cs {closepath stroke} def
+/Cln {newpath 3 1 roll
+ moveto {lineto} repeat clip newpath
+ } def
+/Cs {closepath stroke} def
+/Fb {newpath moveto
+ Dx 0 rlineto 0 Dy rlineto Dx neg 0 rlineto closepath
+ fill } def
+/Fbn { newpath 3 1 roll moveto {lineto} repeat
+ closepath fill } def
+/Fbnc { newpath 3 1 roll moveto
+ {lineto} repeat closepath fill } def
+/L /lineto load def
+/Lend {/Strlen exch stringwidth pop def} def
+/Lendi {/Strlen exch stringwidth pop 1.5 mul def} def
+/Lends {/Strlen exch stringwidth pop 1.1 mul def} def
+/Lenssd {/Strlenss exch stringwidth pop 3 mul 4 div def} def
+/LSM {2 copy lineto stroke moveto} def
+/lsm {Xp Yp lineto stroke mover} def
+/M /moveto load def
+/mover {Xp Yp moveto} def
+/Np {newpath} def
+/S /stroke load def
+/Scrgb {setrgbcolor} def
+/Scmyk {setcmykcolor} def
+/Schsb {sethsbcolor} def
+/Sgray {setgray} def
+/FScrgb {setrgbcolor fill} def
+/FScmyk {setcmykcolor fill} def
+/FSchsb {sethsbcolor fill} def
+/FSgray {setgray fill} def
+/Setf {Curfnt exch scalefont setfont} def
+/SM {stroke moveto} def
+/sm {stroke mover} def
+/Slw {72.0000 mul setlinewidth} def
+/SSlw {72.0000 mul setlinewidth stroke} def
+/Slw0 {.24 setlinewidth} bind def
+/SSlw0 {.24 setlinewidth stroke} bind def
+%Line Breaking Procedure
+/TurnLineFL
+ { /T exch def /spacewidth space stringwidth pop def
+ /currentw 0 def /wordspace_count 0 def
+ /restart 0 def /remainder T def
+ {remainder space search
+ {/nextword exch def pop
+ /remainder exch def
+ /nextwordwidth nextword stringwidth pop def
+ currentw nextwordwidth add lw gt
+ {T restart wordspace_count restart sub
+ getinterval showline
+ /restart wordspace_count def
+ /currentw nextwordwidth spacewidth add def
+ }
+ {/currentw currentw nextwordwidth add
+ spacewidth add def
+ }
+ ifelse
+ /wordspace_count wordspace_count
+ nextword length add 1 add def
+ }
+ {pop exit}
+ ifelse
+ } loop
+ /lrem remainder stringwidth pop def
+ currentw lrem add lw gt
+ {T restart wordspace_count restart sub
+ getinterval showline remainder showline}
+ {/lastchar T length def
+ T restart lastchar restart sub getinterval
+ lm y moveto show}
+ ifelse
+ } def
+ /parms {/y exch def /lm exch def /rm exch def
+ /leading exch def /pointsize exch def
+ /lw rm lm sub def
+ findfont pointsize scalefont setfont
+ /showline {lm y moveto show
+ /y y leading sub def} def
+ lm y moveto } def
+/Xposd {/Xpos exch def} def
+/Xposjd {/Xpos exch Xpos exch Strlen mul sub def} def
+/xydef {/Xp Xpos def /Yp Ypos def} def
+%/Xypd {/Yp exch def /Xp exch def} def
+/Xypos0d {/Xpos0 Xpres def /Ypos0 Ypres def} def
+/Xyprset {dup /Xpres exch cos Strlen mul Xpos add def
+ /Ypres exch sin Strlen mul Ypos add def} def
+/Xyprset0 {dup /Xpres exch cos Strlen mul Xpos0 add def
+ /Ypres exch sin Strlen mul Ypos0 add def} def
+/Yposd {/Ypos exch def} def
+/Yposjd {/Ypos exch Ypos exch Strlen mul sub def} def
+%%EndProlog
+/space ( ) def
+%%Page: 1 1
+/Curfnt /Times-Italic findfont def
+ 12 Setf
+ 1.000 1.000 scale
+ 0.000 Sgray
+Slw0
+ 0.000 Sgray
+ 0.000 0.000 0.000 Scrgb
+ 36.00 36.00 SM
+ 36.00 36.00 translate
+S
+ 11 Setf
+ 0.00 Xposd
+ 720.00 Yposd
+(Legend) Lend
+xydef mover (Legend) show
+ 0.0 Xyprset
+S
+ 11 Setf
+ 0.00 Xposd
+ 705.60 Yposd
+(Color by Region                                 ) Lend
+xydef mover (Color by Region                                 ) show
+ 0.0 Xyprset
+Np
+ 0.00 684.00 M
+ 14.40 684.00 L
+ 14.40 691.20 L
+ 0.00 691.20 L
+closepath
+gsave
+ 0.667 0.500 0.500 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 7.20 Xposd
+ 685.80 Yposd
+(   1) Lend 0.500 Xposjd
+xydef mover (   1) show
+ 0.0 Xyprset
+Np
+ 14.40 684.00 M
+ 28.80 684.00 L
+ 28.80 691.20 L
+ 14.40 691.20 L
+closepath
+gsave
+ 0.656 0.508 0.508 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 21.60 Xposd
+ 685.80 Yposd
+(   2) Lend 0.500 Xposjd
+xydef mover (   2) show
+ 0.0 Xyprset
+Np
+ 28.80 684.00 M
+ 43.20 684.00 L
+ 43.20 691.20 L
+ 28.80 691.20 L
+closepath
+gsave
+ 0.646 0.516 0.516 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 36.00 Xposd
+ 685.80 Yposd
+(   3) Lend 0.500 Xposjd
+xydef mover (   3) show
+ 0.0 Xyprset
+Np
+ 43.20 684.00 M
+ 57.60 684.00 L
+ 57.60 691.20 L
+ 43.20 691.20 L
+closepath
+gsave
+ 0.635 0.524 0.524 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 50.40 Xposd
+ 685.80 Yposd
+(   4) Lend 0.500 Xposjd
+xydef mover (   4) show
+ 0.0 Xyprset
+Np
+ 57.60 684.00 M
+ 72.00 684.00 L
+ 72.00 691.20 L
+ 57.60 691.20 L
+closepath
+gsave
+ 0.624 0.532 0.532 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 64.80 Xposd
+ 685.80 Yposd
+(   5) Lend 0.500 Xposjd
+xydef mover (   5) show
+ 0.0 Xyprset
+Np
+ 72.00 684.00 M
+ 86.40 684.00 L
+ 86.40 691.20 L
+ 72.00 691.20 L
+closepath
+gsave
+ 0.614 0.540 0.540 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 79.20 Xposd
+ 685.80 Yposd
+(   6) Lend 0.500 Xposjd
+xydef mover (   6) show
+ 0.0 Xyprset
+Np
+ 86.40 684.00 M
+ 100.80 684.00 L
+ 100.80 691.20 L
+ 86.40 691.20 L
+closepath
+gsave
+ 0.603 0.548 0.548 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 93.60 Xposd
+ 685.80 Yposd
+(   7) Lend 0.500 Xposjd
+xydef mover (   7) show
+ 0.0 Xyprset
+Np
+ 100.80 684.00 M
+ 115.20 684.00 L
+ 115.20 691.20 L
+ 100.80 691.20 L
+closepath
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 108.00 Xposd
+ 685.80 Yposd
+(   8) Lend 0.500 Xposjd
+xydef mover (   8) show
+ 0.0 Xyprset
+Np
+ 115.20 684.00 M
+ 129.60 684.00 L
+ 129.60 691.20 L
+ 115.20 691.20 L
+closepath
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 122.40 Xposd
+ 685.80 Yposd
+(   9) Lend 0.500 Xposjd
+xydef mover (   9) show
+ 0.0 Xyprset
+Np
+ 129.60 684.00 M
+ 144.00 684.00 L
+ 144.00 691.20 L
+ 129.60 691.20 L
+closepath
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 136.80 Xposd
+ 685.80 Yposd
+(  10) Lend 0.500 Xposjd
+xydef mover (  10) show
+ 0.0 Xyprset
+Np
+ 144.00 684.00 M
+ 158.40 684.00 L
+ 158.40 691.20 L
+ 144.00 691.20 L
+closepath
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 151.20 Xposd
+ 685.80 Yposd
+(  11) Lend 0.500 Xposjd
+xydef mover (  11) show
+ 0.0 Xyprset
+Np
+ 158.40 684.00 M
+ 172.80 684.00 L
+ 172.80 691.20 L
+ 158.40 691.20 L
+closepath
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 165.60 Xposd
+ 685.80 Yposd
+(  12) Lend 0.500 Xposjd
+xydef mover (  12) show
+ 0.0 Xyprset
+Np
+ 172.80 684.00 M
+ 187.20 684.00 L
+ 187.20 691.20 L
+ 172.80 691.20 L
+closepath
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 180.00 Xposd
+ 685.80 Yposd
+(  13) Lend 0.500 Xposjd
+xydef mover (  13) show
+ 0.0 Xyprset
+Np
+ 187.20 684.00 M
+ 201.60 684.00 L
+ 201.60 691.20 L
+ 187.20 691.20 L
+closepath
+gsave
+ 0.529 0.603 0.603 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 194.40 Xposd
+ 685.80 Yposd
+(  14) Lend 0.500 Xposjd
+xydef mover (  14) show
+ 0.0 Xyprset
+Np
+ 201.60 684.00 M
+ 216.00 684.00 L
+ 216.00 691.20 L
+ 201.60 691.20 L
+closepath
+gsave
+ 0.519 0.611 0.611 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 208.80 Xposd
+ 685.80 Yposd
+(  15) Lend 0.500 Xposjd
+xydef mover (  15) show
+ 0.0 Xyprset
+Np
+ 216.00 684.00 M
+ 230.40 684.00 L
+ 230.40 691.20 L
+ 216.00 691.20 L
+closepath
+gsave
+ 0.508 0.619 0.619 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 223.20 Xposd
+ 685.80 Yposd
+(  16) Lend 0.500 Xposjd
+xydef mover (  16) show
+ 0.0 Xyprset
+Np
+ 230.40 684.00 M
+ 244.80 684.00 L
+ 244.80 691.20 L
+ 230.40 691.20 L
+closepath
+gsave
+ 0.497 0.627 0.627 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 237.60 Xposd
+ 685.80 Yposd
+(  17) Lend 0.500 Xposjd
+xydef mover (  17) show
+ 0.0 Xyprset
+Np
+ 244.80 684.00 M
+ 259.20 684.00 L
+ 259.20 691.20 L
+ 244.80 691.20 L
+closepath
+gsave
+ 0.487 0.635 0.635 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 252.00 Xposd
+ 685.80 Yposd
+(  18) Lend 0.500 Xposjd
+xydef mover (  18) show
+ 0.0 Xyprset
+Np
+ 259.20 684.00 M
+ 273.60 684.00 L
+ 273.60 691.20 L
+ 259.20 691.20 L
+closepath
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 266.40 Xposd
+ 685.80 Yposd
+(  19) Lend 0.500 Xposjd
+xydef mover (  19) show
+ 0.0 Xyprset
+Np
+ 273.60 684.00 M
+ 288.00 684.00 L
+ 288.00 691.20 L
+ 273.60 691.20 L
+closepath
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 280.80 Xposd
+ 685.80 Yposd
+(  20) Lend 0.500 Xposjd
+xydef mover (  20) show
+ 0.0 Xyprset
+Np
+ 288.00 684.00 M
+ 302.40 684.00 L
+ 302.40 691.20 L
+ 288.00 691.20 L
+closepath
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 295.20 Xposd
+ 685.80 Yposd
+(  21) Lend 0.500 Xposjd
+xydef mover (  21) show
+ 0.0 Xyprset
+Np
+ 302.40 684.00 M
+ 316.80 684.00 L
+ 316.80 691.20 L
+ 302.40 691.20 L
+closepath
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 309.60 Xposd
+ 685.80 Yposd
+(  22) Lend 0.500 Xposjd
+xydef mover (  22) show
+ 0.0 Xyprset
+Np
+ 316.80 684.00 M
+ 331.20 684.00 L
+ 331.20 691.20 L
+ 316.80 691.20 L
+closepath
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 324.00 Xposd
+ 685.80 Yposd
+(  23) Lend 0.500 Xposjd
+xydef mover (  23) show
+ 0.0 Xyprset
+Np
+ 331.20 684.00 M
+ 345.60 684.00 L
+ 345.60 691.20 L
+ 331.20 691.20 L
+closepath
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 338.40 Xposd
+ 685.80 Yposd
+(  24) Lend 0.500 Xposjd
+xydef mover (  24) show
+ 0.0 Xyprset
+Np
+ 345.60 684.00 M
+ 360.00 684.00 L
+ 360.00 691.20 L
+ 345.60 691.20 L
+closepath
+gsave
+ 0.413 0.690 0.690 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 352.80 Xposd
+ 685.80 Yposd
+(  25) Lend 0.500 Xposjd
+xydef mover (  25) show
+ 0.0 Xyprset
+Np
+ 360.00 684.00 M
+ 374.40 684.00 L
+ 374.40 691.20 L
+ 360.00 691.20 L
+closepath
+gsave
+ 0.402 0.698 0.698 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 367.20 Xposd
+ 685.80 Yposd
+(  26) Lend 0.500 Xposjd
+xydef mover (  26) show
+ 0.0 Xyprset
+Np
+ 374.40 684.00 M
+ 388.80 684.00 L
+ 388.80 691.20 L
+ 374.40 691.20 L
+closepath
+gsave
+ 0.392 0.706 0.706 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 381.60 Xposd
+ 685.80 Yposd
+(  27) Lend 0.500 Xposjd
+xydef mover (  27) show
+ 0.0 Xyprset
+Np
+ 388.80 684.00 M
+ 403.20 684.00 L
+ 403.20 691.20 L
+ 388.80 691.20 L
+closepath
+gsave
+ 0.381 0.714 0.714 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 396.00 Xposd
+ 685.80 Yposd
+(  28) Lend 0.500 Xposjd
+xydef mover (  28) show
+ 0.0 Xyprset
+Np
+ 403.20 684.00 M
+ 417.60 684.00 L
+ 417.60 691.20 L
+ 403.20 691.20 L
+closepath
+gsave
+ 0.370 0.722 0.722 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 410.40 Xposd
+ 685.80 Yposd
+(  29) Lend 0.500 Xposjd
+xydef mover (  29) show
+ 0.0 Xyprset
+Np
+ 417.60 684.00 M
+ 432.00 684.00 L
+ 432.00 691.20 L
+ 417.60 691.20 L
+closepath
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 424.80 Xposd
+ 685.80 Yposd
+(  30) Lend 0.500 Xposjd
+xydef mover (  30) show
+ 0.0 Xyprset
+Np
+ 0.00 676.80 M
+ 14.40 676.80 L
+ 14.40 684.00 L
+ 0.00 684.00 L
+closepath
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 7.20 Xposd
+ 678.60 Yposd
+(  31) Lend 0.500 Xposjd
+xydef mover (  31) show
+ 0.0 Xyprset
+Np
+ 14.40 676.80 M
+ 28.80 676.80 L
+ 28.80 684.00 L
+ 14.40 684.00 L
+closepath
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 21.60 Xposd
+ 678.60 Yposd
+(  32) Lend 0.500 Xposjd
+xydef mover (  32) show
+ 0.0 Xyprset
+Np
+ 28.80 676.80 M
+ 43.20 676.80 L
+ 43.20 684.00 L
+ 28.80 684.00 L
+closepath
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 36.00 Xposd
+ 678.60 Yposd
+(  33) Lend 0.500 Xposjd
+xydef mover (  33) show
+ 0.0 Xyprset
+Np
+ 43.20 676.80 M
+ 57.60 676.80 L
+ 57.60 684.00 L
+ 43.20 684.00 L
+closepath
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 50.40 Xposd
+ 678.60 Yposd
+(  34) Lend 0.500 Xposjd
+xydef mover (  34) show
+ 0.0 Xyprset
+Np
+ 57.60 676.80 M
+ 72.00 676.80 L
+ 72.00 684.00 L
+ 57.60 684.00 L
+closepath
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 64.80 Xposd
+ 678.60 Yposd
+(  35) Lend 0.500 Xposjd
+xydef mover (  35) show
+ 0.0 Xyprset
+Np
+ 72.00 676.80 M
+ 86.40 676.80 L
+ 86.40 684.00 L
+ 72.00 684.00 L
+closepath
+gsave
+ 0.296 0.778 0.778 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 79.20 Xposd
+ 678.60 Yposd
+(  36) Lend 0.500 Xposjd
+xydef mover (  36) show
+ 0.0 Xyprset
+Np
+ 86.40 676.80 M
+ 100.80 676.80 L
+ 100.80 684.00 L
+ 86.40 684.00 L
+closepath
+gsave
+ 0.286 0.786 0.786 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 93.60 Xposd
+ 678.60 Yposd
+(  37) Lend 0.500 Xposjd
+xydef mover (  37) show
+ 0.0 Xyprset
+Np
+ 100.80 676.80 M
+ 115.20 676.80 L
+ 115.20 684.00 L
+ 100.80 684.00 L
+closepath
+gsave
+ 0.275 0.794 0.794 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 108.00 Xposd
+ 678.60 Yposd
+(  38) Lend 0.500 Xposjd
+xydef mover (  38) show
+ 0.0 Xyprset
+Np
+ 115.20 676.80 M
+ 129.60 676.80 L
+ 129.60 684.00 L
+ 115.20 684.00 L
+closepath
+gsave
+ 0.265 0.802 0.802 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 122.40 Xposd
+ 678.60 Yposd
+(  39) Lend 0.500 Xposjd
+xydef mover (  39) show
+ 0.0 Xyprset
+Np
+ 129.60 676.80 M
+ 144.00 676.80 L
+ 144.00 684.00 L
+ 129.60 684.00 L
+closepath
+gsave
+ 0.254 0.810 0.810 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 136.80 Xposd
+ 678.60 Yposd
+(  40) Lend 0.500 Xposjd
+xydef mover (  40) show
+ 0.0 Xyprset
+Np
+ 144.00 676.80 M
+ 158.40 676.80 L
+ 158.40 684.00 L
+ 144.00 684.00 L
+closepath
+gsave
+ 0.243 0.817 0.817 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 151.20 Xposd
+ 678.60 Yposd
+(  41) Lend 0.500 Xposjd
+xydef mover (  41) show
+ 0.0 Xyprset
+Np
+ 158.40 676.80 M
+ 172.80 676.80 L
+ 172.80 684.00 L
+ 158.40 684.00 L
+closepath
+gsave
+ 0.233 0.825 0.825 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 165.60 Xposd
+ 678.60 Yposd
+(  42) Lend 0.500 Xposjd
+xydef mover (  42) show
+ 0.0 Xyprset
+Np
+ 172.80 676.80 M
+ 187.20 676.80 L
+ 187.20 684.00 L
+ 172.80 684.00 L
+closepath
+gsave
+ 0.222 0.833 0.833 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 180.00 Xposd
+ 678.60 Yposd
+(  43) Lend 0.500 Xposjd
+xydef mover (  43) show
+ 0.0 Xyprset
+Np
+ 187.20 676.80 M
+ 201.60 676.80 L
+ 201.60 684.00 L
+ 187.20 684.00 L
+closepath
+gsave
+ 0.212 0.841 0.841 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 194.40 Xposd
+ 678.60 Yposd
+(  44) Lend 0.500 Xposjd
+xydef mover (  44) show
+ 0.0 Xyprset
+Np
+ 201.60 676.80 M
+ 216.00 676.80 L
+ 216.00 684.00 L
+ 201.60 684.00 L
+closepath
+gsave
+ 0.201 0.849 0.849 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 208.80 Xposd
+ 678.60 Yposd
+(  45) Lend 0.500 Xposjd
+xydef mover (  45) show
+ 0.0 Xyprset
+Np
+ 216.00 676.80 M
+ 230.40 676.80 L
+ 230.40 684.00 L
+ 216.00 684.00 L
+closepath
+gsave
+ 0.190 0.857 0.857 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 223.20 Xposd
+ 678.60 Yposd
+(  46) Lend 0.500 Xposjd
+xydef mover (  46) show
+ 0.0 Xyprset
+Np
+ 230.40 676.80 M
+ 244.80 676.80 L
+ 244.80 684.00 L
+ 230.40 684.00 L
+closepath
+gsave
+ 0.180 0.865 0.865 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 237.60 Xposd
+ 678.60 Yposd
+(  47) Lend 0.500 Xposjd
+xydef mover (  47) show
+ 0.0 Xyprset
+Np
+ 244.80 676.80 M
+ 259.20 676.80 L
+ 259.20 684.00 L
+ 244.80 684.00 L
+closepath
+gsave
+ 0.169 0.873 0.873 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 252.00 Xposd
+ 678.60 Yposd
+(  48) Lend 0.500 Xposjd
+xydef mover (  48) show
+ 0.0 Xyprset
+Np
+ 259.20 676.80 M
+ 273.60 676.80 L
+ 273.60 684.00 L
+ 259.20 684.00 L
+closepath
+gsave
+ 0.159 0.881 0.881 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 266.40 Xposd
+ 678.60 Yposd
+(  49) Lend 0.500 Xposjd
+xydef mover (  49) show
+ 0.0 Xyprset
+Np
+ 273.60 676.80 M
+ 288.00 676.80 L
+ 288.00 684.00 L
+ 273.60 684.00 L
+closepath
+gsave
+ 0.148 0.889 0.889 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 280.80 Xposd
+ 678.60 Yposd
+(  50) Lend 0.500 Xposjd
+xydef mover (  50) show
+ 0.0 Xyprset
+Np
+ 288.00 676.80 M
+ 302.40 676.80 L
+ 302.40 684.00 L
+ 288.00 684.00 L
+closepath
+gsave
+ 0.138 0.897 0.897 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 295.20 Xposd
+ 678.60 Yposd
+(  51) Lend 0.500 Xposjd
+xydef mover (  51) show
+ 0.0 Xyprset
+Np
+ 302.40 676.80 M
+ 316.80 676.80 L
+ 316.80 684.00 L
+ 302.40 684.00 L
+closepath
+gsave
+ 0.127 0.905 0.905 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 309.60 Xposd
+ 678.60 Yposd
+(  52) Lend 0.500 Xposjd
+xydef mover (  52) show
+ 0.0 Xyprset
+Np
+ 316.80 676.80 M
+ 331.20 676.80 L
+ 331.20 684.00 L
+ 316.80 684.00 L
+closepath
+gsave
+ 0.116 0.913 0.913 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 324.00 Xposd
+ 678.60 Yposd
+(  53) Lend 0.500 Xposjd
+xydef mover (  53) show
+ 0.0 Xyprset
+Np
+ 331.20 676.80 M
+ 345.60 676.80 L
+ 345.60 684.00 L
+ 331.20 684.00 L
+closepath
+gsave
+ 0.106 0.921 0.921 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 338.40 Xposd
+ 678.60 Yposd
+(  54) Lend 0.500 Xposjd
+xydef mover (  54) show
+ 0.0 Xyprset
+Np
+ 345.60 676.80 M
+ 360.00 676.80 L
+ 360.00 684.00 L
+ 345.60 684.00 L
+closepath
+gsave
+ 0.095 0.929 0.929 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 352.80 Xposd
+ 678.60 Yposd
+(  55) Lend 0.500 Xposjd
+xydef mover (  55) show
+ 0.0 Xyprset
+Np
+ 360.00 676.80 M
+ 374.40 676.80 L
+ 374.40 684.00 L
+ 360.00 684.00 L
+closepath
+gsave
+ 0.085 0.937 0.937 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 367.20 Xposd
+ 678.60 Yposd
+(  56) Lend 0.500 Xposjd
+xydef mover (  56) show
+ 0.0 Xyprset
+Np
+ 374.40 676.80 M
+ 388.80 676.80 L
+ 388.80 684.00 L
+ 374.40 684.00 L
+closepath
+gsave
+ 0.074 0.944 0.944 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 381.60 Xposd
+ 678.60 Yposd
+(  57) Lend 0.500 Xposjd
+xydef mover (  57) show
+ 0.0 Xyprset
+Np
+ 388.80 676.80 M
+ 403.20 676.80 L
+ 403.20 684.00 L
+ 388.80 684.00 L
+closepath
+gsave
+ 0.063 0.952 0.952 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 396.00 Xposd
+ 678.60 Yposd
+(  58) Lend 0.500 Xposjd
+xydef mover (  58) show
+ 0.0 Xyprset
+Np
+ 403.20 676.80 M
+ 417.60 676.80 L
+ 417.60 684.00 L
+ 403.20 684.00 L
+closepath
+gsave
+ 0.053 0.960 0.960 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 410.40 Xposd
+ 678.60 Yposd
+(  59) Lend 0.500 Xposjd
+xydef mover (  59) show
+ 0.0 Xyprset
+Np
+ 417.60 676.80 M
+ 432.00 676.80 L
+ 432.00 684.00 L
+ 417.60 684.00 L
+closepath
+gsave
+ 0.042 0.968 0.968 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 424.80 Xposd
+ 678.60 Yposd
+(  60) Lend 0.500 Xposjd
+xydef mover (  60) show
+ 0.0 Xyprset
+Np
+ 0.00 669.60 M
+ 14.40 669.60 L
+ 14.40 676.80 L
+ 0.00 676.80 L
+closepath
+gsave
+ 0.032 0.976 0.976 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 7.20 Xposd
+ 671.40 Yposd
+(  61) Lend 0.500 Xposjd
+xydef mover (  61) show
+ 0.0 Xyprset
+Np
+ 14.40 669.60 M
+ 28.80 669.60 L
+ 28.80 676.80 L
+ 14.40 676.80 L
+closepath
+gsave
+ 0.021 0.984 0.984 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 21.60 Xposd
+ 671.40 Yposd
+(  62) Lend 0.500 Xposjd
+xydef mover (  62) show
+ 0.0 Xyprset
+Np
+ 28.80 669.60 M
+ 43.20 669.60 L
+ 43.20 676.80 L
+ 28.80 676.80 L
+closepath
+gsave
+ 0.011 0.992 0.992 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 36.00 Xposd
+ 671.40 Yposd
+(  63) Lend 0.500 Xposjd
+xydef mover (  63) show
+ 0.0 Xyprset
+Np
+ 43.20 669.60 M
+ 57.60 669.60 L
+ 57.60 676.80 L
+ 43.20 676.80 L
+closepath
+gsave
+ 0.000 1.000 1.000 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+S
+ 5 Setf
+ 50.40 Xposd
+ 671.40 Yposd
+(  64) Lend 0.500 Xposjd
+xydef mover (  64) show
+ 0.0 Xyprset
+ 252.00 252.00 SM
+ 252.00 252.00 translate
+Np
+ 252.00 252.00 M
+ -252.00 252.00 L
+ -252.00 -252.00 L
+ 252.00 -252.00 L
+closepath
+gsave
+ 0.000 1.000 1.000 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 252.00 C
+ 0.011 0.992 0.992 FSchsb
+Np
+ 0.00 0.00 252.00 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 242.95 C
+ 0.021 0.984 0.984 FSchsb
+Np
+ 0.00 0.00 242.95 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 233.89 C
+ 0.032 0.976 0.976 FSchsb
+Np
+ 0.00 0.00 233.89 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 224.84 C
+ 0.042 0.968 0.968 FSchsb
+Np
+ 0.00 0.00 224.84 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 215.78 C
+ 0.053 0.960 0.960 FSchsb
+Np
+ 0.00 0.00 215.78 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 206.73 C
+ 0.063 0.952 0.952 FSchsb
+Np
+ 0.00 0.00 206.73 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 197.68 C
+ 0.074 0.944 0.944 FSchsb
+Np
+ 0.00 0.00 197.68 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 188.62 C
+ 0.085 0.937 0.937 FSchsb
+Np
+ 0.00 0.00 188.62 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 179.57 C
+ 0.095 0.929 0.929 FSchsb
+Np
+ 0.00 0.00 179.57 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 170.51 C
+ 0.106 0.921 0.921 FSchsb
+Np
+ 0.00 0.00 170.51 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 161.46 C
+ 0.116 0.913 0.913 FSchsb
+Np
+ 0.00 0.00 161.46 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 152.41 C
+ 0.127 0.905 0.905 FSchsb
+Np
+ 0.00 0.00 152.41 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 143.35 C
+ 0.138 0.897 0.897 FSchsb
+Np
+ 0.00 0.00 143.35 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 134.30 C
+ 0.148 0.889 0.889 FSchsb
+Np
+ 0.00 0.00 134.30 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 125.24 C
+ 0.159 0.881 0.881 FSchsb
+Np
+ 0.00 0.00 125.24 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 116.19 C
+ 0.169 0.873 0.873 FSchsb
+Np
+ 0.00 0.00 116.19 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 113.72 C
+ 0.180 0.865 0.865 FSchsb
+Np
+ 0.00 0.00 113.72 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 110.75 C
+ 0.190 0.857 0.857 FSchsb
+Np
+ 0.00 0.00 110.75 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 107.77 C
+ 0.201 0.849 0.849 FSchsb
+Np
+ 0.00 0.00 107.77 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 104.79 C
+ 0.212 0.841 0.841 FSchsb
+Np
+ 0.00 0.00 104.79 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 101.81 C
+ 0.222 0.833 0.833 FSchsb
+Np
+ 0.00 0.00 101.81 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 98.83 C
+ 0.233 0.825 0.825 FSchsb
+Np
+ 0.00 0.00 98.83 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 95.00 C
+ 0.243 0.817 0.817 FSchsb
+Np
+ 0.00 0.00 95.00 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 91.17 C
+ 0.254 0.810 0.810 FSchsb
+Np
+ 0.00 0.00 91.17 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 85.64 C
+ 0.265 0.802 0.802 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 4.87 15.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 24.87 35.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 44.87 55.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 64.87 75.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 84.87 95.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 104.87 115.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 124.87 135.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 144.87 155.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 164.87 175.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 184.87 195.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 204.87 215.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 224.87 235.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 244.87 255.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 264.87 275.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 284.87 295.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 304.87 315.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 324.87 335.13 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 85.64 344.87 355.13 arcit
+Np
+ 0.00 0.00 80.12 C
+ 0.275 0.794 0.794 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 8.00 12.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 28.00 32.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 48.00 52.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 68.00 72.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 88.00 92.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 108.00 112.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 128.00 132.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 148.00 152.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 168.00 172.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 188.00 192.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 208.00 212.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 228.00 232.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 248.00 252.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 268.00 272.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 288.00 292.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 308.00 312.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 328.00 332.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 80.12 348.00 352.00 arcit
+Np
+ 0.00 0.00 74.60 C
+ 0.286 0.786 0.786 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 8.66 11.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 28.66 31.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 48.66 51.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 68.66 71.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 88.66 91.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 108.66 111.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 128.66 131.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 148.66 151.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 168.66 171.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 188.66 191.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 208.66 211.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 228.66 231.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 248.66 251.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 268.66 271.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 288.66 291.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 308.66 311.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 328.66 331.34 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 74.60 348.66 351.34 arcit
+Np
+ 0.00 0.00 69.07 C
+ 0.296 0.778 0.778 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 7.04 12.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 27.04 32.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 47.04 52.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 67.04 72.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 87.04 92.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 107.04 112.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 127.04 132.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 147.04 152.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 167.04 172.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 187.04 192.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 207.04 212.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 227.04 232.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 247.04 252.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 267.04 272.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 287.04 292.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 307.04 312.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 327.04 332.96 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 69.07 347.04 352.96 arcit
+Np
+ 0.00 0.00 63.55 C
+ 0.370 0.722 0.722 FSchsb
+Np
+ 0.00 0.00 63.55 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 58.54 C
+ 0.381 0.714 0.714 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 23.93 36.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 53.93 66.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 83.93 96.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 113.93 126.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 143.93 156.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 173.93 186.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 203.93 216.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 233.93 246.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 263.93 276.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 293.93 306.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 323.93 336.07 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 58.54 353.93 366.07 arcit
+Np
+ 0.00 0.00 53.52 C
+ 0.392 0.706 0.706 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 27.33 32.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 57.33 62.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 87.33 92.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 117.33 122.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 147.33 152.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 177.33 182.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 207.33 212.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 237.33 242.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 267.33 272.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 297.33 302.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 327.33 332.67 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 53.52 357.33 362.67 arcit
+Np
+ 0.00 0.00 48.51 C
+ 0.402 0.698 0.698 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 28.11 31.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 58.11 61.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 88.11 91.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 118.11 121.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 148.11 151.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 178.11 181.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 208.11 211.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 238.11 241.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 268.11 271.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 298.11 301.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 328.11 331.89 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 48.51 358.11 361.89 arcit
+Np
+ 0.00 0.00 43.50 C
+ 0.413 0.690 0.690 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 25.99 34.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 55.99 64.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 85.99 94.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 115.99 124.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 145.99 154.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 175.99 184.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 205.99 214.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 235.99 244.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 265.99 274.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 295.99 304.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 325.99 334.01 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 43.50 355.99 364.01 arcit
+Np
+ 0.00 0.00 38.49 C
+ 0.487 0.635 0.635 FSchsb
+Np
+ 0.00 0.00 38.49 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 33.41 C
+ 0.497 0.627 0.627 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 17.56 42.44 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 77.56 102.44 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 137.56 162.44 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 197.56 222.44 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 257.56 282.44 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 33.41 317.56 342.44 arcit
+Np
+ 0.00 0.00 28.34 C
+ 0.508 0.619 0.619 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 24.00 36.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 84.00 96.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 144.00 156.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 204.00 216.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 264.00 276.00 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 28.34 324.00 336.00 arcit
+Np
+ 0.00 0.00 23.27 C
+ 0.519 0.611 0.611 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 26.05 33.95 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 86.05 93.95 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 146.05 153.95 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 206.05 213.95 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 266.05 273.95 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 23.27 326.05 333.95 arcit
+Np
+ 0.00 0.00 18.20 C
+ 0.529 0.603 0.603 FSchsb
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 21.77 38.23 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 81.77 98.23 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 141.77 158.23 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 201.77 218.23 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 261.77 278.23 arcit
+ 0.000 Sgray
+ 0.002 Slw
+ 0.00 0.00 18.20 321.77 338.23 arcit
+Np
+ 0.00 0.00 13.13 C
+ 0.603 0.548 0.548 FSchsb
+Np
+ 0.00 0.00 13.13 C
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 76.38 0.00 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 26.12 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 49.10 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 66.15 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 75.22 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 75.22 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 66.15 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 49.10 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 26.12 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -76.38 0.00 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -71.77 -26.12 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -58.51 -49.10 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -38.19 -66.15 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.26 -75.22 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.26 -75.22 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 38.19 -66.15 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 58.51 -49.10 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 11.54 C
+gsave
+ 0.307 0.770 0.770 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 11.13 C
+gsave
+ 0.317 0.762 0.762 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 10.71 C
+gsave
+ 0.328 0.754 0.754 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 8.04 C
+gsave
+ 0.339 0.746 0.746 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 5.36 C
+gsave
+ 0.349 0.738 0.738 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 71.77 -26.12 2.68 C
+gsave
+ 0.360 0.730 0.730 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 13.13 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 35.86 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 48.99 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 48.99 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 35.86 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 13.13 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -48.99 -13.13 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -35.86 -35.86 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -48.99 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -48.99 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 35.86 -35.86 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 11.54 C
+gsave
+ 0.423 0.683 0.683 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 11.13 C
+gsave
+ 0.434 0.675 0.675 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 10.71 C
+gsave
+ 0.444 0.667 0.667 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 8.04 C
+gsave
+ 0.455 0.659 0.659 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 5.36 C
+gsave
+ 0.466 0.651 0.651 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 48.99 -13.13 2.68 C
+gsave
+ 0.476 0.643 0.643 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 26.25 0.00 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 22.74 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 22.74 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -26.25 0.00 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ -13.13 -22.74 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 11.54 C
+gsave
+ 0.540 0.595 0.595 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 11.13 C
+gsave
+ 0.550 0.587 0.587 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 10.71 C
+gsave
+ 0.561 0.579 0.579 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 8.04 C
+gsave
+ 0.571 0.571 0.571 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 5.36 C
+gsave
+ 0.582 0.563 0.563 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 13.13 -22.74 2.68 C
+gsave
+ 0.593 0.556 0.556 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 11.54 C
+gsave
+ 0.614 0.540 0.540 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 11.13 C
+gsave
+ 0.624 0.532 0.532 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 10.71 C
+gsave
+ 0.635 0.524 0.524 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 8.04 C
+gsave
+ 0.646 0.516 0.516 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 5.36 C
+gsave
+ 0.656 0.508 0.508 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+Np
+ 0.00 0.00 2.68 C
+gsave
+ 0.667 0.500 0.500 FSchsb
+grestore
+ 0.000 Sgray
+ 0.002 SSlw
+ -252.00 -252.00 SM
+ -252.00 -252.00 translate
+stroke showpage

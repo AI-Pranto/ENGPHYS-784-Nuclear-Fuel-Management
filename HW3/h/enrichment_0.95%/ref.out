@@ -1,0 +1,700 @@
+ DDDDDD   RRRRRR     AAA     GGGGG    OOOOO   NN     NN
+ DDDDDDD  RRRRRRR   AAAAA   GGGGGGG  OOOOOOO  NNN    NN
+ DD   DD  RR   RR  AA   AA  GG       OO   OO  NNNN   NN
+ DD   DD  RRRRRR   AA   AA  GG  GGG  OO   OO  NN NN  NN
+ DD   DD  RRRR     AAAAAAA  GG  GGG  OO   OO  NN  NN NN
+ DD   DD  RR RR    AAAAAAA  GG   GG  OO   OO  NN   NNNN
+ DDDDDDD  RR  RR   AA   AA  GGGGGGG  OOOOOOO  NN    NNN
+ DDDDDD   RR   RR  AA   AA   GGGGG    OOOOO   NN     NN
+
+ VERSION DRAGON 3.05 (2006/02/28)
+ GROUPE D'ANALYSE NUCLEAIRE
+ ECOLE POLYTECHNIQUE DE MONTREAL
+
+
+
+ You are now using DRAGON  3.05 Revision E  (2007/10/18)
+
+
+ COPYRIGHT NOTICE FOR THIS VERSION OF DRAGON:
+ --------------------------------------------
+ PERMISSION IS GRANTED TO THE PUBLIC TO COPY
+ DRAGON WITHOUT CHARGE PROVIDED THAT THIS
+ NOTICE IS REPRODUCED ON ALL COPIES.
+ ECOLE POLYTECHNIQUE DE MONTREAL MAKES NO
+ WARRANTY, EXPRESS OR IMPLIED, AND ASSUMES
+ NO LIABILITY OR RESPONSIBILITY FOR THE USE
+ OF DRAGON.
+
+
+
+* CLE-2000 VERS 2.1 * R.ROY, EPM COPYRIGHT 1999 *                           LINE
+! OBJECT        : Single 37-element CANDU bundle for ring-by-ring homoge    0001
+!                 and thin edged for discontinuity factor calculation       0002
+! CODE          : DRAGON                                                    0003
+! LIBRARY       : WIMLUP IAEA WIMSD4                                        0004
+! CREATED       : 2006/01/14                                                0005
+                                                                            0006
+                                                                            0007
+                                                                            0008
+                                                                            0009
+*  PARAMETERS FOR THE BUNDLE (ref. Gaould - ORNL-AECL - ORIGEN Validatio    0010
+*                                                           *               0011
+                                                                            0012
+!Fuel density 10.6 g/cm3 (G)                                                0013
+!Fuel temperature 1155 K (G)                                                0014
+                                                                            0015
+!Fuelpin sheath outer radius 0.6540 cm (G)                                  0016
+!Fuel pellet radius (equal to sheath inner radius) 0.6075 cm (G)            0017
+!Number of fuel pins 1, 6, 12, 18 (G)                                       0018
+                                                                            0019
+                                                                            0020
+                                                                            0021
+!Gap between central pin and first ring 0.2385 cm (C: G)                    0022
+!Inner fuel ring radius (7) 1.4885 cm (G)                                   0023
+!Gap between first ring and second ring 0.037 cm (C: G)                     0024
+!Middle fuel ring radius (14) 2.8755 cm (G)                                 0025
+!Gap between second ring and third ring 0.305cm (C: G)                      0026
+!Outer fuel ring radius (21) 4.3305 cm (G)                                  0027
+!Gap between third ring and pressure tube 0.2634cm (C: G)                   0028
+                                                                            0029
+!Fuel composition:                                                          0030
+!Central Pin - Nat U                                                        0031
+!First ring - Nat U                                                         0032
+!Second ring - Nat U                                                        0033
+!Third ring - Nat U                                                         0034
+                                                                            0035
+! Pressure tube iner radius - 5.1689 cm                                     0036
+! Pressure tube outer radius - 5.6032 cm                                    0037
+! Calandria tube iner radius - 6.4478 cm                                    0038
+! Calandria tube outer radius - 6.5875 cm                                   0039
+                                                                            0040
+! Lattice pitch - 28.575 cm                                                 0041
+                                                                            0042
+! Coolant D2O                                                               0043
+! Atom purity - 99.75 %                                                     0044
+! Density - 0.8360 g/cm3                                                    0045
+! Temperature - 549 K                                                       0046
+                                                                            0047
+                                                                            0048
+! Moderator D2O                                                             0049
+! Atom purity - 99.91 %                                                     0050
+! Density 1.0829 - g/cm3                                                    0051
+! Temperature - 346 K                                                       0052
+                                                                            0053
+                                                                            0054
+!NOTE: central pin is denoted by 0, and rings are then 1,2,3, moving out    0055
+                                                                            0056
+! Data Structure declarations                                               0057
+                                                                            0058
+  LINKED_LIST TRULIB TRUGEO                                                 0059
+              TRUTRAK  TRUMATRIX                                            0060
+              TRUFLUX                                                       0061
+                 ;                                                          0062
+                                                                            0063
+! File Declarations                                                         0064
+                                                                            0065
+  SEQ_BINARY  TRU_TRK ;                                                     0066
+  SEQ_ASCII   PIC_MIX.ps                                                    0067
+              PIC_REG.ps TRU_FLUX TRU_LIB ;                                 0068
+                                                                            0069
+! Module Declarations                                                       0070
+                                                                            0071
+  MODULE    GEO: EXCELT: EXCELL: SHI: ASM: LIB: FLU:                        0072
+            EDI: UTL: DELETE: FREE: END: INFO: CPO: PSP: ;                  0073
+                                                                            0074
+                                                                            0075
+! Variable Declarations                                                     0076
+                                                                            0077
+  REAL      Tcool  Dcool Pcool Tfuel Dfuel0 Dfuel1 Dfuel2 Dfuel3  ;         0078
+  REAL      Pmod Tmod Dmod ppmB hpitch mhpitch hpitchm01 mhpitchm01 ;       0079
+  REAL      wgt1Hm wgt2Dm wgtOXm wgtB  wgtB10 wgtB11 ;                      0080
+  REAL      wgt1Hc wgt2Dc wgtOXc wgtU8 wgtOX  wgtU5                         0081
+            wgt8U0 wgtOX0 wgt5U0 wgt8U1 wgtOX1 wgt5U1                       0082
+            wgt8U2 wgtOX2 wgt5U2 wgt8U3 wgtOX3 wgt5U3 ;                     0083
+  REAL      enrich0 enrich1 enrich2   enrich3 UCon0 OCon0 UCon1 OCon1       0084
+            UCon2 OCon2 UCon3 OCon3                                         0085
+             ;                                                              0086
+  REAL      DzrII  Wz1      Wf6    Wc2  Wn8   Wbn    ;                      0087
+                                                                            0088
+! Declaring pin radii (fuel pin rad. 1, fuel pin rad. 2, clad rad. 1, cl    0089
+  REAL      fpr  cr ;                                                       0090
+                                                                            0091
+! Declaring annulus radii (More variables are declared than are actually    0092
+                                                                            0093
+  REAL      ar00 ar01 ar02 ar03 ar04 ar05 ar06 ar07 ar08 ar09               0094
+            ar10 ar11 ar12 ar13 ar14 ar15 ar16 ar17 ar18 ar19 ;             0095
+                                                                            0096
+                                                                            0097
+                                                                            0098
+! Declaring ring (of fuel pins) radii                                       0099
+! (More variables are declared than are actually used)                      0100
+                                                                            0101
+  REAL      rr00 rr01 rr02 rr03 rr04 rr05 rr06 rr07 rr08 rr09               0102
+            rr10 rr11 rr12 rr13 rr14 rr15 rr16 rr17 rr18 rr19 delta ;       0103
+                                                                            0104
+! Declaring  auxiliary variables                                            0105
+! (More variables are declared than are actually used)                      0106
+                                                                            0107
+  REAL      rotangle ;                                                      0108
+                                                                            0109
+                                                                            0110
+                                                                            0111
+  ! Defining material names instead of numbers for easier reference         0112
+  INTEGER   pTubeMat  gapMat     calTubeMat modMat     ring0Mat             0113
+            ring1Mat  ring2Mat  ring3Mat  cladMatR0                         0114
+            cladMatR1 cladMatR2 cladMatR3                                   0115
+            coolMatR0  coolMatR1  coolMatR2 coolMatR3                       0116
+            fcMatR0   fcMatR1    fcMatR2   fcMatR3   :=                     0117
+            1         2          3          4          5                    0118
+            6         7          8          9                               0119
+            10        11         12                                         0120
+            13        14         15        16                               0121
+            5         6          7          8 ;                             0122
+                                                                            0123
+  STRING    nam1H   nam2D   namB11 namB10 namZr namFe namCr namNi namNb     0124
+            namC    namSi   namFA  namMn  namCu namMo namAl namHE namTi     0125
+            namP    namS    namCo  namPb  namN  U238  U235  O16   DY160     0126
+            DY161   DY162   DY163  DY164  U236  PU239 PU240 PU241           0127
+            PU242   AM241 ;                                                 0128
+                                                                            0129
+  STRING    title1  title2  title3              ;                           0130
+                                                                            0131
+! Calculate the rotation angle of the second ring of pins.                  0132
+                                                                            0133
+EVALUATE rotangle := $Pi_R  12.0 / ;                                        0134
+ECHO rotangle ;                                                             0135
+                                                                            0136
+                                                                            0137
+! Set the right isotope names for the library that is used (WIMS-D4)        0138
+  EVALUATE  nam1H   nam2D   namB11 namB10 namZr namFe namCr namNi namNb     0139
+            namC    namSi   namFA  namMn  namCu namMo namAl namHE namTi     0140
+            namP    namS    namCo  namPb  namN  U238  U235  O16   DY160     0141
+            DY161   DY162   DY163  DY164  U236  PU239 PU240 PU241           0142
+            PU242   AM241 :=                                                0143
+            "3001" "3002" "11"   "10" "91"    "2056" "52"   "58"  "93"      0144
+            "2012" "29"   "2056" "55" "3063"  "4095" "27"   "4" "48"        0145
+            "31"   "32"   "1059" "207"  "14"  "8238" "2235" "6016" "160"    0146
+            "161"  "162"  "163"  "164"  "236" "6239" "1240" "1241"          0147
+            "242"  "951" ;                                                  0148
+                                                                            0149
+  EVALUATE Tmod   Pmod    ppmB hpitch       mhpitch                         0150
+           hpitchm01 mhpitchm01 :=                                          0151
+           346.0  99.91   0.0  28.575 2. /  -28.575 2. /                    0152
+           28.575 2. / 0.1 -   -28.575 2. / 0.1 +  ;                        0153
+           ! The moderator is heavy water of high purity                    0154
+                                                                            0155
+  EVALUATE Tcool  Pcool    Tfuel  Dfuel0   Dfuel1 Dfuel2 Dfuel3  :=         0156
+           549.0  99.75    1155.0 10.6     10.6   10.6   10.6      ;        0157
+           ! The coolant is heavy water of somewhat lower purity            0158
+                                                                            0159
+! Set enrichment                                                            0160
+  EVALUATE    enrich0 enrich1 enrich2 enrich3                               0161
+           := 0.95   0.95   0.95   0.95 ;                                   0162
+                                                                            0163
+! Convert total Boron from weight ppm to % ppm                              0164
+  EVALUATE wgtB := ppmB 0.0001 * ;                                          0165
+                                                                            0166
+! Calculate the weight % of each of the two isotopes of boron               0167
+  EVALUATE wgtB10  := 0.199  wgtB            *        ;                     0168
+  EVALUATE wgtB11  := 0.801  wgtB            *        ;                     0169
+                                                                            0170
+! Set composition of Calandria tube (Zr-II)                                 0171
+  EVALUATE  DzrII := 6.5                         ;                          0172
+  EVALUATE  Wz1       :=                                                    0173
+            100.0     ;                                                     0174
+                                                                            0175
+! Set pin radii (fuel pin rad. 1, fuel pin rad. 2, clad rad. 1, clad rad    0176
+  EVALUATE  fpr    cr       :=                                              0177
+            0.6075 0.6540  ;                                                0178
+                                                                            0179
+                                                                            0180
+! Set ring (of fuel pins) radii                                             0181
+                                                                            0182
+  EVALUATE delta := 0.2 ;                                                   0183
+                                                                            0184
+  EVALUATE   rr00     rr01     rr02      rr03 :=                            0185
+             0.000    1.4885   2.8755    4.3305 ;                           0186
+                                                                            0187
+                                                                            0188
+! Set annulus radii                                                         0189
+                                                                            0190
+  EVALUATE  ar00               ar01                                         0191
+            ar02                                                            0192
+            ar03               ar04                ar05                     0193
+            ar06               ar07                ar08      :=             0194
+            0.00               rr00 rr01 + 2.00 /                           0195
+            ! midway between two rings with different pin radii             0196
+            rr02 cr - rr01 cr + - 2.00 / rr01 cr + +                        0197
+            rr02 rr03 + 2.00 / 5.16890             5.6032                   0198
+            6.4478              6.5875             14.2875                  0199
+            ;                                                               0200
+                                                                            0201
+                                                                            0202
+                                                                            0203
+! ----                                                                      0204
+!  MICROSCOPIC CROSS SECTIONS                                               0205
+!                                                                           0206
+! ---                                                                       0207
+!                                                                           0208
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN THE CENTRAL PIN                    0209
+INFO: ::              ENR: <<enrich0>> WGT%                                 0210
+                      LIB: WIMSD4 FIL: IAEALB                               0211
+                      ISO: 3    <<U238>> <<O16>> <<U235>>                   0212
+                      CALC WGT% UO2 >>wgt8U0<< >>wgtOX0<< >>wgt5U0<< ;      0213
+ECHO wgt8U0 wgtOX0 wgt5U0  ;                                                0214
+                                                                            0215
+                                                                            0216
+                                                                            0217
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN THE FIRST RING                     0218
+INFO: ::              ENR: <<enrich1>> WGT%                                 0219
+                      LIB: WIMSD4 FIL: IAEALB                               0220
+                      ISO: 3    <<U238>> <<O16>> <<U235>>                   0221
+                      CALC WGT% UO2 >>wgt8U1<< >>wgtOX1<< >>wgt5U1<< ;      0222
+ECHO wgt8U1 wgtOX1 wgt5U1  ;                                                0223
+                                                                            0224
+                                                                            0225
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN RING 2                             0226
+INFO: ::              ENR: <<enrich2>> WGT%                                 0227
+                      LIB: WIMSD4 FIL: IAEALB                               0228
+                      ISO: 3    <<U238>> <<O16>> <<U235>>                   0229
+                      CALC WGT% UO2 >>wgt8U2<< >>wgtOX2<< >>wgt5U2<< ;      0230
+                                                                            0231
+! COMPUTE EACH ISOTOPE'S WGT% FOR UO2 IN RING 3                             0232
+INFO: ::              ENR: <<enrich3>> WGT%                                 0233
+                      LIB: WIMSD4 FIL: IAEALB                               0234
+                      ISO: 3    <<U238>> <<O16>> <<U235>>                   0235
+                      CALC WGT% UO2 >>wgt8U3<< >>wgtOX3<< >>wgt5U3<< ;      0236
+                                                                            0237
+                                                                            0238
+                                                                            0239
+! COMPUTE DENSITY AND WGT% FOR COOLANT                                      0240
+INFO: ::              TMP: <<Tcool>> K                                      0241
+                      PUR: <<Pcool>> ATM%                                   0242
+                      CALC DENS WATER >>Dcool<<                             0243
+                      LIB: WIMSD4 FIL: IAEALB                               0244
+                      ISO: 3 <<nam1H>> <<nam2D>> <<O16>>                    0245
+                      CALC WGT% D2O >>wgt1Hc<< >>wgt2Dc<< >>wgtOXc<< ;      0246
+! Void                                                                      0247
+!EVALUATE Dcool := Dcool 0.001 * ;                                          0248
+                                                                            0249
+! COMPUTE DENSITY AND WGT% FOR MODERATOR                                    0250
+INFO: ::              TMP: <<Tmod>> K                                       0251
+                      PUR: <<Pmod>> ATM%                                    0252
+                      CALC DENS WATER >>Dmod<<                              0253
+                      LIB: WIMSD4 FIL: IAEALB                               0254
+                      ISO: 3 <<nam1H>> <<nam2D>> <<O16>>                    0255
+                      CALC WGT% D2O >>wgt1Hm<< >>wgt2Dm<< >>wgtOXm<< ;      0256
+                                                                            0257
+! Set up the "mixtures" (i.e. materials)                                    0258
+TRULIB := LIB: :: EDIT 0                                                    0259
+    NMIX 18 CTRA WIMS                                                       0260
+    DEPL LIB: WIMSD4 FIL: IAEALB                                            0261
+    MIXS LIB: WIMSD4 FIL: IAEALB                                            0262
+                                                                            0263
+  MIX  <<coolMatR0>>  <<Tcool>>   <<Dcool>>                                 0264
+    H1 = <<nam1H>>    <<wgt1Hc>>                                            0265
+    D2 = <<nam2D>>    <<wgt2Dc>>                                            0266
+    <<O16>>               <<wgtOXc>>                                        0267
+                                                                            0268
+  MIX  <<coolMatR1>>  <<Tcool>>   <<Dcool>>                                 0269
+    H1 = <<nam1H>>    <<wgt1Hc>>                                            0270
+    D2 = <<nam2D>>    <<wgt2Dc>>                                            0271
+    <<O16>>               <<wgtOXc>>                                        0272
+                                                                            0273
+  MIX  <<coolMatR2>>  <<Tcool>>   <<Dcool>>                                 0274
+    H1 = <<nam1H>>    <<wgt1Hc>>                                            0275
+    D2 = <<nam2D>>    <<wgt2Dc>>                                            0276
+    <<O16>>               <<wgtOXc>>                                        0277
+                                                                            0278
+  MIX  <<coolMatR3>>  <<Tcool>>   <<Dcool>>                                 0279
+    H1 = <<nam1H>>    <<wgt1Hc>>                                            0280
+    D2 = <<nam2D>>    <<wgt2Dc>>                                            0281
+    <<O16>>               <<wgtOXc>>                                        0282
+                                                                            0283
+  MIX  <<pTubeMat>>  <<Tcool>>    6.5                                       0284
+    ZR =  <<namZr>>    97.5                                                 0285
+    NB =  <<namNb>>    2.5                                                  0286
+                                                                            0287
+  MIX  <<gapMat>>  <<Tmod>>    0.0014                                       0288
+    HE4   = <<namHE>>  100.                                                 0289
+                                                                            0290
+  MIX  <<calTubeMat>>  <<Tmod>>    <<DzrII>>                                0291
+    ZR = <<namZr>>     <<Wz1>>                                              0292
+                                                                            0293
+  MIX  <<modMat>>  <<Tmod>>    <<Dmod>>                                     0294
+    H1 = <<nam1H>>     <<wgt1Hm>>                                           0295
+    D2 = <<nam2D>>     <<wgt2Dm>>                                           0296
+    <<O16>>                <<wgtOXm>>                                       0297
+   B10 = <<namB10>>    <<wgtB10>>                                           0298
+   B11 = <<namB11>>    <<wgtB11>>                                           0299
+                                                                            0300
+! The density has to equal the fuel density, as the combination of mixtu    0301
+! does not allow for a re-definition of the density.                        0302
+  MIX  <<ring0Mat>>  <<Tfuel>>  <<Dfuel0>>                                  0303
+   <<U235>> <<wgt5U0>> 1                                                    0304
+   <<U238>> <<wgt8U0>> 1                                                    0305
+   <<O16>>  <<wgtOX0>>                                                      0306
+!  Elements added only to specify them as self-shielding (only one          0307
+!  self-shielding region)                                                   0308
+   <<U236>>  0.0   1                                                        0309
+   <<PU239>> 0.0   1                                                        0310
+   <<PU240>> 0.0   1                                                        0311
+   <<PU241>> 0.0   1                                                        0312
+   <<PU242>> 0.0   1                                                        0313
+   <<AM241>> 0.0   1                                                        0314
+                                                                            0315
+! The density has to equal the fuel density, as the combination of mixtu    0316
+! does not allow for a re-definition of the density.                        0317
+  MIX  <<ring1Mat>>  <<Tfuel>>  <<Dfuel1>>                                  0318
+   <<U235>> <<wgt5U1>> 1                                                    0319
+   <<U238>> <<wgt8U1>> 1                                                    0320
+   <<O16>>  <<wgtOX1>>                                                      0321
+!  Elements added only to specify them as self-shielding (only one          0322
+!  self-shielding region)                                                   0323
+   <<U236>>  0.0   1                                                        0324
+   <<PU239>> 0.0   1                                                        0325
+   <<PU240>> 0.0   1                                                        0326
+   <<PU241>> 0.0   1                                                        0327
+   <<PU242>> 0.0   1                                                        0328
+   <<AM241>> 0.0   1                                                        0329
+                                                                            0330
+  MIX  <<ring2Mat>>  <<Tfuel>> <<Dfuel2>>                                   0331
+   <<U235>> <<wgt5U2>> 1                                                    0332
+   <<U238>> <<wgt8U2>> 1                                                    0333
+   <<O16>>  <<wgtOX2>>                                                      0334
+!  Elements added only to specify them as self-shielding (only one          0335
+!  self-shielding region)                                                   0336
+   <<U236>>  0.0   1                                                        0337
+   <<PU239>> 0.0   1                                                        0338
+   <<PU240>> 0.0   1                                                        0339
+   <<PU241>> 0.0   1                                                        0340
+   <<PU242>> 0.0   1                                                        0341
+   <<AM241>> 0.0   1                                                        0342
+                                                                            0343
+  MIX  <<ring3Mat>>  <<Tfuel>> <<Dfuel3>>                                   0344
+   <<U235>> <<wgt5U3>> 1                                                    0345
+   <<U238>> <<wgt8U3>> 1                                                    0346
+   <<O16>>  <<wgtOX3>>                                                      0347
+!  Elements added only to specify them as self-shielding (only one          0348
+!  self-shielding region)                                                   0349
+   <<U236>>  0.0   1                                                        0350
+   <<PU239>> 0.0   1                                                        0351
+   <<PU240>> 0.0   1                                                        0352
+   <<PU241>> 0.0   1                                                        0353
+   <<PU242>> 0.0   1                                                        0354
+   <<AM241>> 0.0   1                                                        0355
+                                                                            0356
+                                                                            0357
+  MIX <<cladMatR0>>  <<Tcool>>    6.5                                       0358
+    ZR = <<namZr>>    100.00                                                0359
+                                                                            0360
+  MIX <<cladMatR1>>  <<Tcool>>    6.5                                       0361
+    ZR = <<namZr>>    100.00                                                0362
+                                                                            0363
+  MIX <<cladMatR2>>  <<Tcool>>    6.5                                       0364
+    ZR = <<namZr>>    100.00                                                0365
+                                                                            0366
+  MIX <<cladMatR3>>  <<Tcool>>    6.5                                       0367
+    ZR = <<namZr>>    100.00                                                0368
+  ;                                                                         0369
+                                                                            0370
+ ECHO 'rr01' rr01 ;                                                         0371
+      ?    ?                                                            
+! WARNING: INSIDE CLE-2000, ENCLOSE STRINGS IN "..." (REPLACED)         
+                                                                            0372
+  TRUGEO := GEO: ::  CARCEL 8 1 1                                           0373
+  X+ REFL                                                                   0374
+  X- REFL                                                                   0375
+  Y+ REFL                                                                   0376
+  Y- REFL                                                                   0377
+   EDIT 0                                                                   0378
+  MESHX <<mhpitch>> <<hpitch>>                                              0379
+  MESHY <<mhpitch>> <<hpitch>>                                              0380
+                                                                            0381
+  RADIUS <<ar00>>       <<ar01>>      <<ar02>>       <<ar03>>               0382
+         <<ar04>>       <<ar05>>      <<ar06>>       <<ar07>>               0383
+         <<ar08>>                                                           0384
+  MIX                   <<coolMatR0>> <<coolMatR1>>  <<coolMatR2>>          0385
+         <<coolMatR3>> <<pTubeMat>>  <<gapMat>>     <<calTubeMat>>          0386
+         <<modMat>>     <<modMat>>                                          0387
+                                                                            0388
+! Split each coolant anulus (except central that cannot be split because    0389
+! overlaps the central pin.) and the moderator anulus.                      0390
+  SPLITR 1 5 5 5 2 5 1 15                                                   0391
+                                                                            0392
+  CLUSTER ROD1 ROD2 ROD3 ROD4                                               0393
+  ::: ROD1 := GEO: TUBE 2 MIX <<ring0Mat>> <<cladMatR0>>                    0394
+      NPIN  1 RPIN <<rr00>> APIN 0.0000                                     0395
+      RADIUS 0.00000 <<fpr>>  <<cr>>                                        0396
+      SPLITR 4 2                                                            0397
+       ;                                                                    0398
+  ::: ROD2 := GEO: ROD1   MIX <<ring1Mat>> <<cladMatR1>>                    0399
+      NPIN  6 RPIN <<rr01>>   APIN 0.0000                                   0400
+      RADIUS 0.00000 <<fpr>>  <<cr>>                                        0401
+      SPLITR 4 2                                                            0402
+       ;                                                                    0403
+  ::: ROD3 := GEO: ROD1   MIX <<ring2Mat>> <<cladMatR2>>                    0404
+      NPIN 12 RPIN <<rr02>>  APIN <<rotangle>>                              0405
+      RADIUS 0.00000 <<fpr>>  <<cr>>                                        0406
+      SPLITR 4 2                                                            0407
+       ;                                                                    0408
+  ::: ROD4 := GEO: ROD1   MIX <<ring3Mat>> <<cladMatR3>>                    0409
+      NPIN 18 RPIN <<rr03>>  APIN 0.0                                       0410
+      RADIUS 0.00000 <<fpr>>  <<cr>>                                        0411
+      SPLITR 4 2                                                            0412
+        ;                                                                   0413
+  ;                                                                         0414
+                                                                            0415
+                                                                            0416
+                                                                            0417
+                                                                            0418
+! Print geometry picture                                                    0419
+PIC_MIX.ps := PSP: TRUGEO ::                                                0420
+TYPE MIXTURE                                                                0421
+;                                                                           0422
+                                                                            0423
+! Print geometry picture                                                    0424
+PIC_REG.ps := PSP: TRUGEO ::                                                0425
+TYPE REGION                                                                 0426
+;                                                                           0427
+                                                                            0428
+! Construct the tracking information for the true cell.                     0429
+                                                                            0430
+TRUTRAK TRU_TRK := EXCELT: TRUGEO ::                                        0431
+EDIT 0                                                                      0432
+TITLE ' TRUE CELL'                                                          0433
+MAXR 300 TRAK TISO 10 20.0                                                  0434
+;                                                                           0435
+                                                                            0436
+                                                                            0437
+                                                                            0438
+! Perform self-shielding calculations                                       0439
+TRULIB := SHI: TRULIB TRUTRAK TRU_TRK ::  NOLJ                              0440
+  EDIT 0                                                                    0441
+  ;                                                                         0442
+                                                                            0443
+                                                                            0444
+! Construct (assemble) the collision probability matrix for the true cel    0445
+TRUMATRIX := ASM: TRULIB TRUTRAK TRU_TRK ::                                 0446
+EDIT 0                                                                      0447
+;                                                                           0448
+                                                                            0449
+                                                                            0450
+! Solve the flux                                                            0451
+TRUFLUX := FLU: TRUMATRIX TRULIB TRUTRAK ::                                 0452
+EDIT 1                                                                      0453
+!  TYPE B B1 PNL  ;                                                         0454
+;                                                                           0455
+                                                                            0456
+! Save the flux for the true geometry                                       0457
+TRU_FLUX := TRUFLUX ;                                                       0458
+                                                                            0459
+                                                                            0460
+END: ;                                                                      0461
+                                                                            0462
+QUIT " lalala" .                                                            0463
+ 
+>| 2.617994E-01                                                           |>0135
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: wgt8U0       <-   8.7315163E+01
+ INF: wgtOX0       <-   1.1847388E+01
+ INF: wgt5U0       <-   8.3744979E-01
+->@END MODULE   : INFO:       
+>| 8.731516E+01  1.184739E+01  8.374498E-01                               |>0214
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: wgt8U1       <-   8.7315163E+01
+ INF: wgtOX1       <-   1.1847388E+01
+ INF: wgt5U1       <-   8.3744979E-01
+->@END MODULE   : INFO:       
+>| 8.731516E+01  1.184739E+01  8.374498E-01                               |>0223
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: wgt8U2       <-   8.7315163E+01
+ INF: wgtOX2       <-   1.1847388E+01
+ INF: wgt5U2       <-   8.3744979E-01
+->@END MODULE   : INFO:       
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: wgt8U3       <-   8.7315163E+01
+ INF: wgtOX3       <-   1.1847388E+01
+ INF: wgt5U3       <-   8.3744979E-01
+->@END MODULE   : INFO:       
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: Dcool        <-   8.3661431E-01
+ INF: wgt1Hc       <-   2.5173053E-02
+ INF: wgt2Dc       <-   2.0072515E+01
+ INF: wgtOXc       <-   7.9902313E+01
+->@END MODULE   : INFO:       
+->@BEGIN MODULE : INFO:       
+->@DESCRIPTION  : INFORMATION ON WATER, UO2 AND THO2                                      
+->@CREDITS      : R. ROY                                                                  
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ INF: Dmod         <-   1.0826622E+00
+ INF: wgt1Hm       <-   9.0601472E-03
+ INF: wgt2Dm       <-   2.0101479E+01
+ INF: wgtOXm       <-   7.9889458E+01
+->@END MODULE   : INFO:       
+->@BEGIN MODULE : LIB:        
+->@DESCRIPTION  : MICROSCOPIC XS-LIBRARY PROCESSING                                       
+->@CREDITS      : A. HEBERT, G. MARLEAU                                                   
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+->@END MODULE   : LIB:        
+>|rr01  1.488500E+00                                                      |>0371
+->@BEGIN MODULE : GEO:        
+->@DESCRIPTION  : GEOMETRY DEFINITION                                                     
+->@CREDITS      : A. HEBERT                                                               
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+->@END MODULE   : GEO:        
+->@BEGIN MODULE : PSP:        
+->@DESCRIPTION  : GENERATES PS GRAPHICS FOR DRAGON                                        
+->@CREDITS      : K.E. KOHLER, G. MARLEAU                                                 
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+                  K.E. KOHLER FOR PSPLOT          
+ ------  PSP EXECUTION OPTIONS --------
+ PRINT LEVEL =        1
+ COLOR       =        4
+ TYPE        =        1
+ CONTOUR     =        1
+ --------------------------------------
+ TRUGEO       WAS NOT ASSEMBLY CHECKED   
+
+ 2-D SQUARE CLUSTER GEOMETRY BASED ON GEOMETRY : TRUGEO      .
+
+ INFINITE DOMAIN.
+->@END MODULE   : PSP:        
+->@BEGIN MODULE : PSP:        
+->@DESCRIPTION  : GENERATES PS GRAPHICS FOR DRAGON                                        
+->@CREDITS      : K.E. KOHLER, G. MARLEAU                                                 
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+                  K.E. KOHLER FOR PSPLOT          
+ ------  PSP EXECUTION OPTIONS --------
+ PRINT LEVEL =        1
+ COLOR       =        4
+ TYPE        =        0
+ CONTOUR     =        1
+ --------------------------------------
+ TRUGEO       WAS NOT ASSEMBLY CHECKED   
+
+ 2-D SQUARE CLUSTER GEOMETRY BASED ON GEOMETRY : TRUGEO      .
+
+ INFINITE DOMAIN.
+->@END MODULE   : PSP:        
+->@BEGIN MODULE : EXCELT:     
+->@DESCRIPTION  : EXCELL TRACKING IN 2 AND 3-D                                            
+->@CREDITS      : G. MARLEAU, M. OUISLOUMEN, R. ROY                                       
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+->@END MODULE   : EXCELT:     
+->@BEGIN MODULE : SHI:        
+->@DESCRIPTION  : SELF-SHIELDING BY IMPROVED STAMMLER METHOD                              
+->@CREDITS      : A. HEBERT                                                               
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+->@END MODULE   : SHI:        
+->@BEGIN MODULE : ASM:        
+->@DESCRIPTION  : TO BUILT SYSTEM MATRICES (CP AND IC)                                    
+->@CREDITS      : A. HEBERT, G. MARLEAU, R. ROY                                           
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+->@END MODULE   : ASM:        
+->@BEGIN MODULE : FLU:        
+->@DESCRIPTION  : SOLVE CP OR JPM EQUATIONS FOR FLUX                                      
+->@CREDITS      : T. COURAU, A. HEBERT, G. MARLEAU, I. PETROVIC                           
+->@COPYRIGHTS   : ECOLE POLYTECHNIQUE DE MONTREAL 
+ FLUX SOLUTION DOOR          =    TRAFIC
+ NUMBER OF GROUPS            =        69
+ NUMBER OF REGIONS           =        64
+ MAX. OUTER ITERATIONS       =       127
+ MAX. THERMAL ITERATIONS     =       138
+ ACCELERATION SCHEME         =( 3 FREE, 3 ACCELERATED)
+ REBALANCING OPTION          = ON 
+ EIGENVALUE TOLERANCE        =  1.000E-05
+ UNKNOWN OUTER TOLERANCE     =  5.000E-05
+ UNKNOWN INNER TOLERANCE     =  5.000E-05
+
+
+ OUTER ITERATION NUMBER                 =          1
+ ---------------------------------------------------
+ CONVERGENCE REACHED AT INNER ITERATION =           12
+ MAXIMUM ERROR ON FLUX  FOUND           =  3.59060E-05
+ TOTAL NUMBER OF ONE GROUP SOLUTIONS    =          567
+
+ TYPE K    -- OUTER ITERATION COMPLETED  =          1
+              CURRENT K-EFFECTIVE        =   1.238647
+              CURRENT K-INFINITE         =   1.238647
+              ERROR ON EIGENVALUE        =   1.347E-02
+              MAXIMUM ERROR ON FLUXES    =  NOT CHECKED
+
+
+ OUTER ITERATION NUMBER                 =          2
+ ---------------------------------------------------
+ CONVERGENCE REACHED AT INNER ITERATION =            4
+ MAXIMUM ERROR ON FLUX  FOUND           =  6.60290E-06
+ TOTAL NUMBER OF ONE GROUP SOLUTIONS    =          245
+
+ TYPE K    -- OUTER ITERATION COMPLETED  =          2
+              CURRENT K-EFFECTIVE        =   1.238472
+              CURRENT K-INFINITE         =   1.238472
+              ERROR ON EIGENVALUE        =   1.416E-04
+              MAXIMUM ERROR ON FLUXES    =  NOT CHECKED
+
+
+ OUTER ITERATION NUMBER                 =          3
+ ---------------------------------------------------
+ CONVERGENCE REACHED AT INNER ITERATION =            2
+ MAXIMUM ERROR ON FLUX  FOUND           =  3.83062E-06
+ TOTAL NUMBER OF ONE GROUP SOLUTIONS    =          138
+
+ TYPE K    -- OUTER ITERATION COMPLETED  =          3
+              CURRENT K-EFFECTIVE        =   1.238468
+              CURRENT K-INFINITE         =   1.238468
+              ERROR ON EIGENVALUE        =   2.724E-06
+              MAXIMUM ERROR ON FLUXES    =   3.303E-03
+
+
+ OUTER ITERATION NUMBER                 =          4
+ ---------------------------------------------------
+ CONVERGENCE REACHED AT INNER ITERATION =            2
+ MAXIMUM ERROR ON FLUX  FOUND           =  1.12497E-06
+ TOTAL NUMBER OF ONE GROUP SOLUTIONS    =          138
+
+ TYPE K    -- OUTER ITERATION COMPLETED  =          4
+              CURRENT K-EFFECTIVE        =   1.238468
+              CURRENT K-INFINITE         =   1.238468
+              ERROR ON EIGENVALUE        =   1.835E-08
+              MAXIMUM ERROR ON FLUXES    =   7.182E-05
+
+
+ OUTER ITERATION NUMBER                 =          5
+ ---------------------------------------------------
+ CONVERGENCE REACHED AT INNER ITERATION =            1
+ MAXIMUM ERROR ON FLUX  FOUND           =  1.81973E-06
+ TOTAL NUMBER OF ONE GROUP SOLUTIONS    =           69
+
+ TYPE K    -- OUTER ITERATION COMPLETED  =          5
+              CURRENT K-EFFECTIVE        =   1.238468
+              CURRENT K-INFINITE         =   1.238468
+              ERROR ON EIGENVALUE        =   1.434E-07
+              MAXIMUM ERROR ON FLUXES    =   1.820E-06
+
+
+ ===================================================
+ CONVERGENCE REACHED AT OUTER ITERATION =          5
+ MAXIMUM FLUX ERROR          =  1.820E-06
+->@END MODULE   : FLU:        
+
+
+ NORMAL END OF EXECUTION FOR DRAGON 3.05
+ CHECK FOR WARNING IN LISTING
+ BEFORE ASSUMING YOUR RUN WAS SUCCESSFUL
