@@ -1,0 +1,3978 @@
+Exit Irradiation 1: 1.785, Exit Irradiation 2: 2.780
+Reactivity (mk): -15.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.72
+========================================
+Exit Irradiation 1: 1.376, Exit Irradiation 2: 1.907
+Reactivity (mk): 6.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.4
+========================================
+Exit Irradiation 1: 1.592, Exit Irradiation 2: 1.976
+Reactivity (mk): 1.82
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.82
+========================================
+Exit Irradiation 1: 1.748, Exit Irradiation 2: 1.837
+Reactivity (mk): 2.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.25
+========================================
+Exit Irradiation 1: 1.834, Exit Irradiation 2: 2.488
+Reactivity (mk): -11.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.47
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 2.458
+Reactivity (mk): -6.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.07
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.862
+Reactivity (mk): -18.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.78
+========================================
+Exit Irradiation 1: 1.534, Exit Irradiation 2: 2.890
+Reactivity (mk): -11.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.36
+========================================
+Exit Irradiation 1: 1.647, Exit Irradiation 2: 1.341
+Reactivity (mk): 13.76
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.76
+========================================
+Exit Irradiation 1: 1.272, Exit Irradiation 2: 2.258
+Reactivity (mk): 2.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.2
+========================================
+Exit Irradiation 1: 1.517, Exit Irradiation 2: 2.848
+Reactivity (mk): -10.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.25
+========================================
+Exit Irradiation 1: 1.278, Exit Irradiation 2: 2.932
+Reactivity (mk): -6.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.09
+========================================
+Exit Irradiation 1: 1.816, Exit Irradiation 2: 2.579
+Reactivity (mk): -12.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.26
+========================================
+Exit Irradiation 1: 1.607, Exit Irradiation 2: 1.685
+Reactivity (mk): 7.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.3
+========================================
+Exit Irradiation 1: 1.695, Exit Irradiation 2: 2.363
+Reactivity (mk): -6.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.11
+========================================
+Exit Irradiation 1: 1.322, Exit Irradiation 2: 2.519
+Reactivity (mk): -2.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.49
+========================================
+Exit Irradiation 1: 1.450, Exit Irradiation 2: 2.143
+Reactivity (mk): 1.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.1
+========================================
+Exit Irradiation 1: 1.777, Exit Irradiation 2: 2.399
+Reactivity (mk): -8.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.03
+========================================
+Exit Irradiation 1: 1.365, Exit Irradiation 2: 2.303
+Reactivity (mk): -0.08
+Max Channel Power: 6.781 MW
+Max Bundle Power: 0.9091 MW
+Penalty: 1007.6900999999999
+========================================
+Exit Irradiation 1: 1.306, Exit Irradiation 2: 1.819
+Reactivity (mk): 9.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.01
+========================================
+Exit Irradiation 1: 1.216, Exit Irradiation 2: 1.219
+Reactivity (mk): 21.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1021.01
+========================================
+Exit Irradiation 1: 1.823, Exit Irradiation 2: 2.951
+Reactivity (mk): -18.52
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.48
+========================================
+Exit Irradiation 1: 1.140, Exit Irradiation 2: 2.210
+Reactivity (mk): 5.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.06
+========================================
+Exit Irradiation 1: 1.419, Exit Irradiation 2: 2.320
+Reactivity (mk): -1.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.71
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.099
+Reactivity (mk): -5.24
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.76
+========================================
+Exit Irradiation 1: 1.124, Exit Irradiation 2: 1.535
+Reactivity (mk): 16.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.5
+========================================
+Exit Irradiation 1: 1.175, Exit Irradiation 2: 2.024
+Reactivity (mk): 7.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.44
+========================================
+Exit Irradiation 1: 1.298, Exit Irradiation 2: 1.393
+Reactivity (mk): 16.94
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.94
+========================================
+Exit Irradiation 1: 1.183, Exit Irradiation 2: 1.379
+Reactivity (mk): 18.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1018.57
+========================================
+Exit Irradiation 1: 1.345, Exit Irradiation 2: 2.721
+Reactivity (mk): -5.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.34
+========================================
+Exit Irradiation 1: 1.164, Exit Irradiation 2: 1.410
+Reactivity (mk): 18.24
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1018.24
+========================================
+Exit Irradiation 1: 1.406, Exit Irradiation 2: 1.719
+Reactivity (mk): 9.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.42
+========================================
+Exit Irradiation 1: 1.565, Exit Irradiation 2: 1.624
+Reactivity (mk): 9.08
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.08
+========================================
+Exit Irradiation 1: 1.547, Exit Irradiation 2: 2.402
+Reactivity (mk): -4.88
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.12
+========================================
+Exit Irradiation 1: 1.764, Exit Irradiation 2: 2.991
+Reactivity (mk): -17.82
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.18
+========================================
+Exit Irradiation 1: 1.477, Exit Irradiation 2: 2.550
+Reactivity (mk): -5.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.15
+========================================
+Exit Irradiation 1: 1.883, Exit Irradiation 2: 2.250
+Reactivity (mk): -8.03
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.97
+========================================
+Exit Irradiation 1: 1.574, Exit Irradiation 2: 2.053
+Reactivity (mk): 0.67
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.67
+========================================
+Exit Irradiation 1: 1.111, Exit Irradiation 2: 2.616
+Reactivity (mk): -0.05
+Max Channel Power: 7.1 MW
+Max Bundle Power: 0.9642 MW
+Penalty: 1008.0642
+========================================
+Exit Irradiation 1: 1.677, Exit Irradiation 2: 1.297
+Reactivity (mk): 14.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1014.3
+========================================
+Exit Irradiation 1: 1.716, Exit Irradiation 2: 1.886
+Reactivity (mk): 1.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.72
+========================================
+Exit Irradiation 1: 1.627, Exit Irradiation 2: 1.613
+Reactivity (mk): 8.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.48
+========================================
+Exit Irradiation 1: 1.153, Exit Irradiation 2: 1.501
+Reactivity (mk): 16.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.75
+========================================
+Exit Irradiation 1: 1.329, Exit Irradiation 2: 2.115
+Reactivity (mk): 3.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.55
+========================================
+Exit Irradiation 1: 1.856, Exit Irradiation 2: 2.010
+Reactivity (mk): -2.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.15
+========================================
+Exit Irradiation 1: 1.670, Exit Irradiation 2: 1.492
+Reactivity (mk): 10.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.42
+========================================
+Exit Irradiation 1: 1.733, Exit Irradiation 2: 2.804
+Reactivity (mk): -14.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.42
+========================================
+Exit Irradiation 1: 1.436, Exit Irradiation 2: 1.678
+Reactivity (mk): 9.78
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.78
+========================================
+Exit Irradiation 1: 1.226, Exit Irradiation 2: 2.699
+Reactivity (mk): -3.13
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.87
+========================================
+Exit Irradiation 1: 1.492, Exit Irradiation 2: 2.642
+Reactivity (mk): -7.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.54
+========================================
+Exit Irradiation 1: 1.512, Exit Irradiation 2: 1.256
+Reactivity (mk): 16.96
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.96
+========================================
+Exit Irradiation 1: 1.392, Exit Irradiation 2: 1.744
+Reactivity (mk): 9.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.15
+========================================
+Exit Irradiation 1: 1.710, Exit Irradiation 2: 1.440
+Reactivity (mk): 11.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.01
+========================================
+Exit Irradiation 1: 1.423, Exit Irradiation 2: 1.579
+Reactivity (mk): 11.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.85
+========================================
+Exit Irradiation 1: 1.806, Exit Irradiation 2: 2.167
+Reactivity (mk): -5.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.8
+========================================
+Exit Irradiation 1: 1.634, Exit Irradiation 2: 2.734
+Reactivity (mk): -11.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.42
+========================================
+Exit Irradiation 1: 1.467, Exit Irradiation 2: 1.798
+Reactivity (mk): 7.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.06
+========================================
+Exit Irradiation 1: 1.197, Exit Irradiation 2: 2.608
+Reactivity (mk): -1.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.56
+========================================
+Exit Irradiation 1: 1.256, Exit Irradiation 2: 1.273
+Reactivity (mk): 19.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1019.61
+========================================
+Exit Irradiation 1: 1.242, Exit Irradiation 2: 1.922
+Reactivity (mk): 8.14
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.14
+========================================
+Exit Irradiation 1: 1.188, Exit Irradiation 2: 2.444
+Reactivity (mk): 0.9
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.9
+========================================
+Exit Irradiation 1: 1.143, Exit Irradiation 2: 1.907
+Reactivity (mk): 9.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.83
+========================================
+Exit Irradiation 1: 1.713, Exit Irradiation 2: 2.777
+Reactivity (mk): -13.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.21
+========================================
+Exit Irradiation 1: 1.837, Exit Irradiation 2: 1.720
+Reactivity (mk): 3.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.51
+========================================
+Exit Irradiation 1: 1.537, Exit Irradiation 2: 2.994
+Reactivity (mk): -13.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.0
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 2.387
+Reactivity (mk): -5.78
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.22
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.152
+Reactivity (mk): -5.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.09
+========================================
+Exit Irradiation 1: 1.534, Exit Irradiation 2: 2.834
+Reactivity (mk): -10.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.09
+========================================
+Exit Irradiation 1: 1.494, Exit Irradiation 2: 2.276
+Reactivity (mk): -1.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.11
+========================================
+Exit Irradiation 1: 1.587, Exit Irradiation 2: 1.949
+Reactivity (mk): 2.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.41
+========================================
+Exit Irradiation 1: 1.496, Exit Irradiation 2: 2.385
+Reactivity (mk): -3.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.31
+========================================
+Exit Irradiation 1: 1.529, Exit Irradiation 2: 2.606
+Reactivity (mk): -7.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.34
+========================================
+Exit Irradiation 1: 1.207, Exit Irradiation 2: 2.579
+Reactivity (mk): -1.24
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.76
+========================================
+Exit Irradiation 1: 1.742, Exit Irradiation 2: 2.057
+Reactivity (mk): -2.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.94
+========================================
+Exit Irradiation 1: 1.517, Exit Irradiation 2: 2.129
+Reactivity (mk): 0.23
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.23
+========================================
+Exit Irradiation 1: 1.322, Exit Irradiation 2: 1.664
+Reactivity (mk): 11.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.61
+========================================
+Exit Irradiation 1: 1.677, Exit Irradiation 2: 2.429
+Reactivity (mk): -7.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.31
+========================================
+Exit Irradiation 1: 1.777, Exit Irradiation 2: 2.768
+Reactivity (mk): -14.94
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.06
+========================================
+Exit Irradiation 1: 1.598, Exit Irradiation 2: 2.802
+Reactivity (mk): -11.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.2
+========================================
+Exit Irradiation 1: 1.520, Exit Irradiation 2: 2.794
+Reactivity (mk): -10.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.9
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 1.699
+Reactivity (mk): 4.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.06
+========================================
+Exit Irradiation 1: 1.687, Exit Irradiation 2: 2.509
+Reactivity (mk): -9.18
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.82
+========================================
+Exit Irradiation 1: 1.510, Exit Irradiation 2: 2.939
+Reactivity (mk): -11.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.25
+========================================
+Exit Irradiation 1: 1.767, Exit Irradiation 2: 2.975
+Reactivity (mk): -17.67
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.33
+========================================
+Exit Irradiation 1: 1.673, Exit Irradiation 2: 2.099
+Reactivity (mk): -1.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.23
+========================================
+Exit Irradiation 1: 1.776, Exit Irradiation 2: 2.971
+Reactivity (mk): -17.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.19
+========================================
+Exit Irradiation 1: 1.322, Exit Irradiation 2: 2.445
+Reactivity (mk): -1.45
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.55
+========================================
+Exit Irradiation 1: 1.403, Exit Irradiation 2: 2.026
+Reactivity (mk): 3.88
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.88
+========================================
+Exit Irradiation 1: 1.484, Exit Irradiation 2: 2.807
+Reactivity (mk): -9.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.46
+========================================
+Exit Irradiation 1: 1.728, Exit Irradiation 2: 2.334
+Reactivity (mk): -6.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.03
+========================================
+Exit Irradiation 1: 1.389, Exit Irradiation 2: 2.949
+Reactivity (mk): -9.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.65
+========================================
+Exit Irradiation 1: 1.669, Exit Irradiation 2: 2.807
+Reactivity (mk): -13.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.68
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.048
+Reactivity (mk): -4.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.8
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 1.555
+Reactivity (mk): 6.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.38
+========================================
+Exit Irradiation 1: 1.727, Exit Irradiation 2: 2.991
+Reactivity (mk): -17.03
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.97
+========================================
+Exit Irradiation 1: 1.808, Exit Irradiation 2: 2.914
+Reactivity (mk): -17.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.31
+========================================
+Exit Irradiation 1: 1.860, Exit Irradiation 2: 2.045
+Reactivity (mk): -3.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.38
+========================================
+Exit Irradiation 1: 1.586, Exit Irradiation 2: 2.617
+Reactivity (mk): -8.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.07
+========================================
+Exit Irradiation 1: 1.401, Exit Irradiation 2: 2.962
+Reactivity (mk): -9.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.25
+========================================
+Exit Irradiation 1: 1.149, Exit Irradiation 2: 2.315
+Reactivity (mk): 3.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.37
+========================================
+Exit Irradiation 1: 1.391, Exit Irradiation 2: 2.186
+Reactivity (mk): 1.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.35
+========================================
+Exit Irradiation 1: 1.724, Exit Irradiation 2: 1.210
+Reactivity (mk): 15.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1015.5
+========================================
+Exit Irradiation 1: 1.553, Exit Irradiation 2: 2.697
+Reactivity (mk): -9.43
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.57
+========================================
+Exit Irradiation 1: 1.329, Exit Irradiation 2: 2.831
+Reactivity (mk): -6.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.28
+========================================
+Exit Irradiation 1: 1.742, Exit Irradiation 2: 2.200
+Reactivity (mk): -4.78
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.22
+========================================
+Exit Irradiation 1: 1.494, Exit Irradiation 2: 2.271
+Reactivity (mk): -1.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.19
+========================================
+Exit Irradiation 1: 1.733, Exit Irradiation 2: 2.730
+Reactivity (mk): -13.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.5
+========================================
+Exit Irradiation 1: 1.761, Exit Irradiation 2: 1.678
+Reactivity (mk): 5.39
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.39
+========================================
+Exit Irradiation 1: 1.226, Exit Irradiation 2: 2.442
+Reactivity (mk): 0.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.28
+========================================
+Exit Irradiation 1: 1.492, Exit Irradiation 2: 2.511
+Reactivity (mk): -5.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.45
+========================================
+Exit Irradiation 1: 1.487, Exit Irradiation 2: 1.808
+Reactivity (mk): 6.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.58
+========================================
+Exit Irradiation 1: 1.461, Exit Irradiation 2: 2.248
+Reactivity (mk): -0.86
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.14
+========================================
+Exit Irradiation 1: 1.176, Exit Irradiation 2: 1.440
+Reactivity (mk): 17.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1017.56
+========================================
+Exit Irradiation 1: 1.603, Exit Irradiation 2: 1.661
+Reactivity (mk): 7.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.83
+========================================
+Exit Irradiation 1: 1.362, Exit Irradiation 2: 1.880
+Reactivity (mk): 7.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.09
+========================================
+Exit Irradiation 1: 1.715, Exit Irradiation 2: 1.568
+Reactivity (mk): 8.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.29
+========================================
+Exit Irradiation 1: 1.676, Exit Irradiation 2: 2.681
+Reactivity (mk): -11.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.36
+========================================
+Exit Irradiation 1: 1.731, Exit Irradiation 2: 2.847
+Reactivity (mk): -15.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.85
+========================================
+Exit Irradiation 1: 1.678, Exit Irradiation 2: 2.779
+Reactivity (mk): -13.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.89
+========================================
+Exit Irradiation 1: 1.242, Exit Irradiation 2: 2.716
+Reactivity (mk): -3.63
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.37
+========================================
+Exit Irradiation 1: 1.656, Exit Irradiation 2: 2.787
+Reactivity (mk): -12.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.23
+========================================
+Exit Irradiation 1: 1.847, Exit Irradiation 2: 1.907
+Reactivity (mk): -0.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.41
+========================================
+Exit Irradiation 1: 1.740, Exit Irradiation 2: 2.570
+Reactivity (mk): -11.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.84
+========================================
+Exit Irradiation 1: 1.788, Exit Irradiation 2: 2.865
+Reactivity (mk): -16.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.42
+========================================
+Exit Irradiation 1: 1.640, Exit Irradiation 2: 2.994
+Reactivity (mk): -15.21
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.79
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 2.548
+Reactivity (mk): -8.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.65
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.462
+Reactivity (mk): -11.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.28
+========================================
+Exit Irradiation 1: 1.534, Exit Irradiation 2: 2.458
+Reactivity (mk): -5.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.47
+========================================
+Exit Irradiation 1: 1.556, Exit Irradiation 2: 2.608
+Reactivity (mk): -8.21
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.79
+========================================
+Exit Irradiation 1: 1.395, Exit Irradiation 2: 2.179
+Reactivity (mk): 1.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.4
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 2.343
+Reactivity (mk): -8.87
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.13
+========================================
+Exit Irradiation 1: 1.799, Exit Irradiation 2: 2.606
+Reactivity (mk): -12.86
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.14
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.579
+Reactivity (mk): -13.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.21
+========================================
+Exit Irradiation 1: 1.835, Exit Irradiation 2: 2.454
+Reactivity (mk): -10.96
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.04
+========================================
+Exit Irradiation 1: 1.801, Exit Irradiation 2: 2.639
+Reactivity (mk): -13.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.58
+========================================
+Exit Irradiation 1: 1.750, Exit Irradiation 2: 2.218
+Reactivity (mk): -5.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.75
+========================================
+Exit Irradiation 1: 1.736, Exit Irradiation 2: 2.408
+Reactivity (mk): -8.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.6
+========================================
+Exit Irradiation 1: 1.677, Exit Irradiation 2: 2.813
+Reactivity (mk): -13.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.43
+========================================
+Exit Irradiation 1: 1.598, Exit Irradiation 2: 2.563
+Reactivity (mk): -8.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.65
+========================================
+Exit Irradiation 1: 1.663, Exit Irradiation 2: 1.825
+Reactivity (mk): 3.7
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.7
+========================================
+Exit Irradiation 1: 1.787, Exit Irradiation 2: 1.699
+Reactivity (mk): 4.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.61
+========================================
+Exit Irradiation 1: 1.780, Exit Irradiation 2: 2.722
+Reactivity (mk): -14.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.69
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.841
+Reactivity (mk): -17.98
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.02
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.975
+Reactivity (mk): -20.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.98
+========================================
+Exit Irradiation 1: 1.566, Exit Irradiation 2: 2.099
+Reactivity (mk): -0.04
+Max Channel Power: 6.523 MW
+Max Bundle Power: 0.8707 MW
+Penalty: 1000.8707
+========================================
+Exit Irradiation 1: 1.799, Exit Irradiation 2: 2.779
+Reactivity (mk): -15.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.45
+========================================
+Exit Irradiation 1: 1.728, Exit Irradiation 2: 2.862
+Reactivity (mk): -15.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.7
+========================================
+Exit Irradiation 1: 1.507, Exit Irradiation 2: 2.939
+Reactivity (mk): -11.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.31
+========================================
+Exit Irradiation 1: 1.395, Exit Irradiation 2: 2.807
+Reactivity (mk): -7.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.26
+========================================
+Exit Irradiation 1: 1.728, Exit Irradiation 2: 2.713
+Reactivity (mk): -13.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.85
+========================================
+Exit Irradiation 1: 1.584, Exit Irradiation 2: 1.964
+Reactivity (mk): 2.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.17
+========================================
+Exit Irradiation 1: 1.642, Exit Irradiation 2: 2.959
+Reactivity (mk): -14.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.2
+========================================
+Exit Irradiation 1: 1.852, Exit Irradiation 2: 2.568
+Reactivity (mk): -13.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.78
+========================================
+Exit Irradiation 1: 1.817, Exit Irradiation 2: 2.847
+Reactivity (mk): -16.92
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.08
+========================================
+Exit Irradiation 1: 1.764, Exit Irradiation 2: 2.960
+Reactivity (mk): -17.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.59
+========================================
+Exit Irradiation 1: 1.237, Exit Irradiation 2: 2.256
+Reactivity (mk): 2.82
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.82
+========================================
+Exit Irradiation 1: 1.276, Exit Irradiation 2: 2.742
+Reactivity (mk): -4.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.4
+========================================
+Exit Irradiation 1: 1.540, Exit Irradiation 2: 2.799
+Reactivity (mk): -10.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.43
+========================================
+Exit Irradiation 1: 1.340, Exit Irradiation 2: 2.810
+Reactivity (mk): -6.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.31
+========================================
+Exit Irradiation 1: 1.811, Exit Irradiation 2: 2.972
+Reactivity (mk): -18.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.44
+========================================
+Exit Irradiation 1: 1.449, Exit Irradiation 2: 2.865
+Reactivity (mk): -9.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.44
+========================================
+Exit Irradiation 1: 1.796, Exit Irradiation 2: 1.613
+Reactivity (mk): 6.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.32
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.697
+Reactivity (mk): -16.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.99
+========================================
+Exit Irradiation 1: 1.102, Exit Irradiation 2: 1.955
+Reactivity (mk): 9.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.62
+========================================
+Exit Irradiation 1: 1.687, Exit Irradiation 2: 2.858
+Reactivity (mk): -14.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.6
+========================================
+Exit Irradiation 1: 1.631, Exit Irradiation 2: 2.604
+Reactivity (mk): -9.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.39
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 1.297
+Reactivity (mk): 11.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.93
+========================================
+Exit Irradiation 1: 1.500, Exit Irradiation 2: 2.265
+Reactivity (mk): -1.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.19
+========================================
+Exit Irradiation 1: 1.226, Exit Irradiation 2: 1.413
+Reactivity (mk): 17.45
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1017.45
+========================================
+Exit Irradiation 1: 1.340, Exit Irradiation 2: 2.528
+Reactivity (mk): -2.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.03
+========================================
+Exit Irradiation 1: 1.674, Exit Irradiation 2: 2.511
+Reactivity (mk): -8.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.03
+========================================
+Exit Irradiation 1: 1.734, Exit Irradiation 2: 2.931
+Reactivity (mk): -16.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.62
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.573
+Reactivity (mk): -13.95
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.05
+========================================
+Exit Irradiation 1: 1.345, Exit Irradiation 2: 2.510
+Reactivity (mk): -2.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.2
+========================================
+Exit Irradiation 1: 1.755, Exit Irradiation 2: 2.933
+Reactivity (mk): -16.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.15
+========================================
+Exit Irradiation 1: 1.522, Exit Irradiation 2: 2.229
+Reactivity (mk): -1.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.41
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.68
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 2.903
+Reactivity (mk): -19.13
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.87
+========================================
+Exit Irradiation 1: 1.678, Exit Irradiation 2: 2.911
+Reactivity (mk): -14.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.07
+========================================
+Exit Irradiation 1: 1.673, Exit Irradiation 2: 2.534
+Reactivity (mk): -9.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.68
+========================================
+Exit Irradiation 1: 1.898, Exit Irradiation 2: 2.806
+Reactivity (mk): -17.94
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.06
+========================================
+Exit Irradiation 1: 1.298, Exit Irradiation 2: 1.907
+Reactivity (mk): 7.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.57
+========================================
+Exit Irradiation 1: 1.322, Exit Irradiation 2: 1.992
+Reactivity (mk): 5.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.73
+========================================
+Exit Irradiation 1: 1.395, Exit Irradiation 2: 2.908
+Reactivity (mk): -8.99
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.01
+========================================
+Exit Irradiation 1: 1.880, Exit Irradiation 2: 2.603
+Reactivity (mk): -14.33
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.67
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 1.254
+Reactivity (mk): 15.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1015.89
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.971
+Reactivity (mk): -19.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.15
+========================================
+Exit Irradiation 1: 1.673, Exit Irradiation 2: 1.586
+Reactivity (mk): 8.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.44
+========================================
+Exit Irradiation 1: 1.864, Exit Irradiation 2: 2.608
+Reactivity (mk): -14.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.89
+========================================
+Exit Irradiation 1: 1.125, Exit Irradiation 2: 2.996
+Reactivity (mk): -4.67
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.33
+========================================
+Exit Irradiation 1: 1.756, Exit Irradiation 2: 2.848
+Reactivity (mk): -15.68
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.32
+========================================
+Exit Irradiation 1: 1.846, Exit Irradiation 2: 2.455
+Reactivity (mk): -11.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.83
+========================================
+Exit Irradiation 1: 1.809, Exit Irradiation 2: 1.240
+Reactivity (mk): 14.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1014.01
+========================================
+Exit Irradiation 1: 1.570, Exit Irradiation 2: 1.314
+Reactivity (mk): 15.18
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1015.18
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.920
+Reactivity (mk): -19.13
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.87
+========================================
+Exit Irradiation 1: 1.843, Exit Irradiation 2: 2.998
+Reactivity (mk): -19.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.4
+========================================
+Exit Irradiation 1: 1.863, Exit Irradiation 2: 2.777
+Reactivity (mk): -16.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.21
+========================================
+Exit Irradiation 1: 1.525, Exit Irradiation 2: 2.222
+Reactivity (mk): -1.52
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.48
+========================================
+Exit Irradiation 1: 1.646, Exit Irradiation 2: 2.836
+Reactivity (mk): -13.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.75
+========================================
+Exit Irradiation 1: 1.900, Exit Irradiation 2: 2.492
+Reactivity (mk): -12.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.21
+========================================
+Exit Irradiation 1: 1.869, Exit Irradiation 2: 2.258
+Reactivity (mk): -7.96
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.04
+========================================
+Exit Irradiation 1: 1.691, Exit Irradiation 2: 2.524
+Reactivity (mk): -9.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.5
+========================================
+Exit Irradiation 1: 1.727, Exit Irradiation 2: 2.012
+Reactivity (mk): -0.95
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.05
+========================================
+Exit Irradiation 1: 1.786, Exit Irradiation 2: 1.713
+Reactivity (mk): 4.33
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.33
+========================================
+Exit Irradiation 1: 1.795, Exit Irradiation 2: 1.396
+Reactivity (mk): 10.94
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.94
+========================================
+Exit Irradiation 1: 1.636, Exit Irradiation 2: 2.971
+Reactivity (mk): -14.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.17
+========================================
+Exit Irradiation 1: 1.728, Exit Irradiation 2: 1.510
+Reactivity (mk): 9.34
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.34
+========================================
+Exit Irradiation 1: 1.762, Exit Irradiation 2: 2.746
+Reactivity (mk): -14.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.69
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.929
+Reactivity (mk): -19.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.91
+========================================
+Exit Irradiation 1: 1.771, Exit Irradiation 2: 2.244
+Reactivity (mk): -6.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.93
+========================================
+Exit Irradiation 1: 1.389, Exit Irradiation 2: 2.873
+Reactivity (mk): -8.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.56
+========================================
+Exit Irradiation 1: 1.642, Exit Irradiation 2: 1.536
+Reactivity (mk): 9.86
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.86
+========================================
+Exit Irradiation 1: 1.852, Exit Irradiation 2: 2.999
+Reactivity (mk): -19.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.2
+========================================
+Exit Irradiation 1: 1.383, Exit Irradiation 2: 2.847
+Reactivity (mk): -8.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.0
+========================================
+Exit Irradiation 1: 1.766, Exit Irradiation 2: 2.758
+Reactivity (mk): -14.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.43
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 2.948
+Reactivity (mk): -20.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.93
+========================================
+Exit Irradiation 1: 1.824, Exit Irradiation 2: 2.965
+Reactivity (mk): -18.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.26
+========================================
+Exit Irradiation 1: 1.451, Exit Irradiation 2: 2.799
+Reactivity (mk): -8.76
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.24
+========================================
+Exit Irradiation 1: 1.400, Exit Irradiation 2: 2.479
+Reactivity (mk): -3.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.63
+========================================
+Exit Irradiation 1: 1.723, Exit Irradiation 2: 2.241
+Reactivity (mk): -5.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.78
+========================================
+Exit Irradiation 1: 1.449, Exit Irradiation 2: 2.971
+Reactivity (mk): -10.86
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.14
+========================================
+Exit Irradiation 1: 1.796, Exit Irradiation 2: 2.860
+Reactivity (mk): -16.68
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.32
+========================================
+Exit Irradiation 1: 1.859, Exit Irradiation 2: 2.987
+Reactivity (mk): -19.78
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.22
+========================================
+Exit Irradiation 1: 1.846, Exit Irradiation 2: 2.961
+Reactivity (mk): -19.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.85
+========================================
+Exit Irradiation 1: 1.850, Exit Irradiation 2: 2.987
+Reactivity (mk): -19.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.41
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.812
+Reactivity (mk): -17.63
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.37
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 2.882
+Reactivity (mk): -17.67
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.33
+========================================
+Exit Irradiation 1: 1.704, Exit Irradiation 2: 2.570
+Reactivity (mk): -10.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.53
+========================================
+Exit Irradiation 1: 1.688, Exit Irradiation 2: 1.589
+Reactivity (mk): 8.19
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.19
+========================================
+Exit Irradiation 1: 1.668, Exit Irradiation 2: 1.918
+Reactivity (mk): 1.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.79
+========================================
+Exit Irradiation 1: 1.674, Exit Irradiation 2: 1.710
+Reactivity (mk): 5.88
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.88
+========================================
+Exit Irradiation 1: 1.522, Exit Irradiation 2: 2.920
+Reactivity (mk): -11.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.23
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.326
+Reactivity (mk): -9.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.46
+========================================
+Exit Irradiation 1: 1.345, Exit Irradiation 2: 2.226
+Reactivity (mk): 1.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.48
+========================================
+Exit Irradiation 1: 1.755, Exit Irradiation 2: 2.760
+Reactivity (mk): -14.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.62
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.169
+Reactivity (mk): -6.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.83
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.944
+Reactivity (mk): -19.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.15
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.903
+Reactivity (mk): -19.23
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.77
+========================================
+Exit Irradiation 1: 1.678, Exit Irradiation 2: 2.602
+Reactivity (mk): -10.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.52
+========================================
+Exit Irradiation 1: 1.534, Exit Irradiation 2: 2.485
+Reactivity (mk): -5.94
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.06
+========================================
+Exit Irradiation 1: 1.581, Exit Irradiation 2: 2.534
+Reactivity (mk): -7.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.42
+========================================
+Exit Irradiation 1: 1.718, Exit Irradiation 2: 2.968
+Reactivity (mk): -16.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.46
+========================================
+Exit Irradiation 1: 1.759, Exit Irradiation 2: 1.714
+Reactivity (mk): 4.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.66
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 1.347
+Reactivity (mk): 10.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.84
+========================================
+Exit Irradiation 1: 1.853, Exit Irradiation 2: 2.978
+Reactivity (mk): -19.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.47
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 2.765
+Reactivity (mk): -11.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.47
+========================================
+Exit Irradiation 1: 1.754, Exit Irradiation 2: 1.637
+Reactivity (mk): 6.34
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.34
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.53
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.93
+========================================
+Exit Irradiation 1: 1.125, Exit Irradiation 2: 2.532
+Reactivity (mk): 0.78
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.78
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.932
+Reactivity (mk): -19.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.47
+========================================
+Exit Irradiation 1: 1.798, Exit Irradiation 2: 2.896
+Reactivity (mk): -17.23
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.77
+========================================
+Exit Irradiation 1: 1.379, Exit Irradiation 2: 2.579
+Reactivity (mk): -4.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.59
+========================================
+Exit Irradiation 1: 1.324, Exit Irradiation 2: 2.943
+Reactivity (mk): -7.95
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.05
+========================================
+Exit Irradiation 1: 1.798, Exit Irradiation 2: 2.858
+Reactivity (mk): -16.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.31
+========================================
+Exit Irradiation 1: 1.843, Exit Irradiation 2: 2.885
+Reactivity (mk): -18.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.0
+========================================
+Exit Irradiation 1: 1.205, Exit Irradiation 2: 2.025
+Reactivity (mk): 6.98
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.98
+========================================
+Exit Irradiation 1: 1.188, Exit Irradiation 2: 2.869
+Reactivity (mk): -4.45
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.55
+========================================
+Exit Irradiation 1: 1.812, Exit Irradiation 2: 2.987
+Reactivity (mk): -18.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.21
+========================================
+Exit Irradiation 1: 1.840, Exit Irradiation 2: 2.935
+Reactivity (mk): -18.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.34
+========================================
+Exit Irradiation 1: 1.835, Exit Irradiation 2: 2.978
+Reactivity (mk): -19.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.85
+========================================
+Exit Irradiation 1: 1.468, Exit Irradiation 2: 2.780
+Reactivity (mk): -8.86
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.14
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.026
+Reactivity (mk): -3.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.56
+========================================
+Exit Irradiation 1: 1.867, Exit Irradiation 2: 2.898
+Reactivity (mk): -18.68
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.32
+========================================
+Exit Irradiation 1: 1.795, Exit Irradiation 2: 1.381
+Reactivity (mk): 11.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.26
+========================================
+Exit Irradiation 1: 1.776, Exit Irradiation 2: 2.667
+Reactivity (mk): -13.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.62
+========================================
+Exit Irradiation 1: 1.810, Exit Irradiation 2: 2.934
+Reactivity (mk): -18.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.98
+========================================
+Exit Irradiation 1: 1.762, Exit Irradiation 2: 2.664
+Reactivity (mk): -13.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.94
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.94
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 2.905
+Reactivity (mk): -18.87
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.13
+========================================
+Exit Irradiation 1: 1.807, Exit Irradiation 2: 2.775
+Reactivity (mk): -15.65
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.35
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.936
+Reactivity (mk): -19.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.19
+========================================
+Exit Irradiation 1: 1.852, Exit Irradiation 2: 2.790
+Reactivity (mk): -16.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.23
+========================================
+Exit Irradiation 1: 1.288, Exit Irradiation 2: 1.697
+Reactivity (mk): 11.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.46
+========================================
+Exit Irradiation 1: 1.886, Exit Irradiation 2: 2.828
+Reactivity (mk): -18.03
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.97
+========================================
+Exit Irradiation 1: 1.863, Exit Irradiation 2: 2.948
+Reactivity (mk): -19.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.68
+========================================
+Exit Irradiation 1: 1.824, Exit Irradiation 2: 2.470
+Reactivity (mk): -11.04
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.96
+========================================
+Exit Irradiation 1: 1.760, Exit Irradiation 2: 2.973
+Reactivity (mk): -17.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.5
+========================================
+Exit Irradiation 1: 1.876, Exit Irradiation 2: 2.924
+Reactivity (mk): -19.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.75
+========================================
+Exit Irradiation 1: 1.404, Exit Irradiation 2: 1.339
+Reactivity (mk): 16.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.66
+========================================
+Exit Irradiation 1: 1.826, Exit Irradiation 2: 2.937
+Reactivity (mk): -18.39
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.61
+========================================
+Exit Irradiation 1: 1.832, Exit Irradiation 2: 2.860
+Reactivity (mk): -17.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.59
+========================================
+Exit Irradiation 1: 1.846, Exit Irradiation 2: 2.996
+Reactivity (mk): -19.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.36
+========================================
+Exit Irradiation 1: 1.626, Exit Irradiation 2: 2.442
+Reactivity (mk): -6.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.03
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.102
+Reactivity (mk): -5.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.78
+========================================
+Exit Irradiation 1: 1.842, Exit Irradiation 2: 2.812
+Reactivity (mk): -16.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.09
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 2.872
+Reactivity (mk): -17.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.47
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 2.959
+Reactivity (mk): -19.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.36
+========================================
+Exit Irradiation 1: 1.860, Exit Irradiation 2: 2.253
+Reactivity (mk): -7.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.28
+========================================
+Exit Irradiation 1: 1.750, Exit Irradiation 2: 2.961
+Reactivity (mk): -17.12
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.88
+========================================
+Exit Irradiation 1: 1.329, Exit Irradiation 2: 2.774
+Reactivity (mk): -6.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.98
+========================================
+Exit Irradiation 1: 1.768, Exit Irradiation 2: 1.589
+Reactivity (mk): 7.18
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.18
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.713
+Reactivity (mk): -16.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.74
+========================================
+Exit Irradiation 1: 1.771, Exit Irradiation 2: 2.981
+Reactivity (mk): -17.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.16
+========================================
+Exit Irradiation 1: 1.755, Exit Irradiation 2: 1.788
+Reactivity (mk): 3.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.17
+========================================
+Exit Irradiation 1: 1.398, Exit Irradiation 2: 2.816
+Reactivity (mk): -7.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.09
+========================================
+Exit Irradiation 1: 1.170, Exit Irradiation 2: 2.927
+Reactivity (mk): -4.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.23
+========================================
+Exit Irradiation 1: 1.311, Exit Irradiation 2: 2.993
+Reactivity (mk): -8.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.74
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.937
+Reactivity (mk): -19.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.46
+========================================
+Exit Irradiation 1: 1.199, Exit Irradiation 2: 2.534
+Reactivity (mk): -0.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.49
+========================================
+Exit Irradiation 1: 1.810, Exit Irradiation 2: 2.926
+Reactivity (mk): -17.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.09
+========================================
+Exit Irradiation 1: 1.812, Exit Irradiation 2: 2.970
+Reactivity (mk): -18.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.44
+========================================
+Exit Irradiation 1: 1.194, Exit Irradiation 2: 2.777
+Reactivity (mk): -3.49
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.51
+========================================
+Exit Irradiation 1: 1.898, Exit Irradiation 2: 2.957
+Reactivity (mk): -20.18
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.82
+========================================
+Exit Irradiation 1: 1.412, Exit Irradiation 2: 2.914
+Reactivity (mk): -9.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.6
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.855
+Reactivity (mk): -18.34
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.66
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.971
+Reactivity (mk): -19.88
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.12
+========================================
+Exit Irradiation 1: 1.704, Exit Irradiation 2: 1.727
+Reactivity (mk): 5.12
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.12
+========================================
+Exit Irradiation 1: 1.810, Exit Irradiation 2: 1.793
+Reactivity (mk): 2.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.32
+========================================
+Exit Irradiation 1: 1.855, Exit Irradiation 2: 2.995
+Reactivity (mk): -19.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.19
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.954
+Reactivity (mk): -19.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.16
+========================================
+Exit Irradiation 1: 1.827, Exit Irradiation 2: 2.896
+Reactivity (mk): -17.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.17
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.896
+Reactivity (mk): -19.13
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.87
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.919
+Reactivity (mk): -19.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.89
+========================================
+Exit Irradiation 1: 1.390, Exit Irradiation 2: 2.920
+Reactivity (mk): -9.03
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.97
+========================================
+Exit Irradiation 1: 1.872, Exit Irradiation 2: 2.045
+Reactivity (mk): -3.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.2
+========================================
+Exit Irradiation 1: 1.121, Exit Irradiation 2: 2.981
+Reactivity (mk): -4.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.56
+========================================
+Exit Irradiation 1: 1.880, Exit Irradiation 2: 2.601
+Reactivity (mk): -14.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.7
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.873
+Reactivity (mk): -18.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.72
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.935
+Reactivity (mk): -19.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.64
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.984
+Reactivity (mk): -20.33
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.67
+========================================
+Exit Irradiation 1: 1.452, Exit Irradiation 2: 2.780
+Reactivity (mk): -8.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.46
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.884
+Reactivity (mk): -18.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.38
+========================================
+Exit Irradiation 1: 1.788, Exit Irradiation 2: 1.735
+Reactivity (mk): 3.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.83
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.215
+Reactivity (mk): -7.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.93
+========================================
+Exit Irradiation 1: 1.709, Exit Irradiation 2: 2.971
+Reactivity (mk): -16.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.62
+========================================
+Exit Irradiation 1: 1.866, Exit Irradiation 2: 2.973
+Reactivity (mk): -19.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.26
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 1.615
+Reactivity (mk): 5.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.35
+========================================
+Exit Irradiation 1: 1.687, Exit Irradiation 2: 2.926
+Reactivity (mk): -15.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.68
+========================================
+Exit Irradiation 1: 1.784, Exit Irradiation 2: 2.973
+Reactivity (mk): -18.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.99
+========================================
+Exit Irradiation 1: 1.815, Exit Irradiation 2: 2.956
+Reactivity (mk): -18.43
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.57
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.988
+Reactivity (mk): -20.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.44
+========================================
+Exit Irradiation 1: 1.696, Exit Irradiation 2: 2.819
+Reactivity (mk): -14.04
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.96
+========================================
+Exit Irradiation 1: 1.817, Exit Irradiation 2: 2.982
+Reactivity (mk): -18.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.17
+========================================
+Exit Irradiation 1: 1.226, Exit Irradiation 2: 2.464
+Reactivity (mk): -0.02
+Max Channel Power: 6.948 MW
+Max Bundle Power: 0.9321 MW
+Penalty: 1007.8801
+========================================
+Exit Irradiation 1: 1.792, Exit Irradiation 2: 2.113
+Reactivity (mk): -3.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.07
+========================================
+Exit Irradiation 1: 1.883, Exit Irradiation 2: 1.398
+Reactivity (mk): 9.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.93
+========================================
+Exit Irradiation 1: 1.779, Exit Irradiation 2: 1.953
+Reactivity (mk): -0.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.44
+========================================
+Exit Irradiation 1: 1.876, Exit Irradiation 2: 2.141
+Reactivity (mk): -5.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.21
+========================================
+Exit Irradiation 1: 1.294, Exit Irradiation 2: 2.986
+Reactivity (mk): -7.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.16
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.45
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.55
+========================================
+Exit Irradiation 1: 1.141, Exit Irradiation 2: 2.860
+Reactivity (mk): -3.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.52
+========================================
+Exit Irradiation 1: 1.788, Exit Irradiation 2: 2.987
+Reactivity (mk): -18.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.72
+========================================
+Exit Irradiation 1: 1.778, Exit Irradiation 2: 2.996
+Reactivity (mk): -18.19
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.81
+========================================
+Exit Irradiation 1: 1.850, Exit Irradiation 2: 2.971
+Reactivity (mk): -19.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.63
+========================================
+Exit Irradiation 1: 1.127, Exit Irradiation 2: 2.998
+Reactivity (mk): -4.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.27
+========================================
+Exit Irradiation 1: 1.756, Exit Irradiation 2: 2.882
+Reactivity (mk): -16.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.84
+========================================
+Exit Irradiation 1: 1.764, Exit Irradiation 2: 1.465
+Reactivity (mk): 9.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.85
+========================================
+Exit Irradiation 1: 1.282, Exit Irradiation 2: 2.986
+Reactivity (mk): -7.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.4
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 1.688
+Reactivity (mk): 3.49
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.49
+========================================
+Exit Irradiation 1: 1.674, Exit Irradiation 2: 1.922
+Reactivity (mk): 1.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.62
+========================================
+Exit Irradiation 1: 1.845, Exit Irradiation 2: 2.814
+Reactivity (mk): -17.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.0
+========================================
+Exit Irradiation 1: 1.430, Exit Irradiation 2: 2.996
+Reactivity (mk): -10.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.25
+========================================
+Exit Irradiation 1: 1.666, Exit Irradiation 2: 2.869
+Reactivity (mk): -14.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.89
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.810
+Reactivity (mk): -17.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.28
+========================================
+Exit Irradiation 1: 1.416, Exit Irradiation 2: 2.734
+Reactivity (mk): -7.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.78
+========================================
+Exit Irradiation 1: 1.831, Exit Irradiation 2: 2.982
+Reactivity (mk): -19.12
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.88
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.903
+Reactivity (mk): -19.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.75
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.847
+Reactivity (mk): -18.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.78
+========================================
+Exit Irradiation 1: 1.673, Exit Irradiation 2: 2.877
+Reactivity (mk): -14.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.63
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.989
+Reactivity (mk): -20.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.43
+========================================
+Exit Irradiation 1: 1.363, Exit Irradiation 2: 2.323
+Reactivity (mk): -0.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.64
+========================================
+Exit Irradiation 1: 1.473, Exit Irradiation 2: 2.777
+Reactivity (mk): -8.92
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.08
+========================================
+Exit Irradiation 1: 1.855, Exit Irradiation 2: 2.998
+Reactivity (mk): -19.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.15
+========================================
+Exit Irradiation 1: 1.734, Exit Irradiation 2: 1.670
+Reactivity (mk): 5.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.91
+========================================
+Exit Irradiation 1: 1.770, Exit Irradiation 2: 1.202
+Reactivity (mk): 15.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1015.17
+========================================
+Exit Irradiation 1: 1.780, Exit Irradiation 2: 2.754
+Reactivity (mk): -14.79
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.21
+========================================
+Exit Irradiation 1: 1.888, Exit Irradiation 2: 2.633
+Reactivity (mk): -14.98
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.02
+========================================
+Exit Irradiation 1: 1.849, Exit Irradiation 2: 2.980
+Reactivity (mk): -19.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.52
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.995
+Reactivity (mk): -20.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.72
+========================================
+Exit Irradiation 1: 1.824, Exit Irradiation 2: 1.886
+Reactivity (mk): 0.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.17
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.993
+Reactivity (mk): -20.19
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.81
+========================================
+Exit Irradiation 1: 1.889, Exit Irradiation 2: 2.896
+Reactivity (mk): -19.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.89
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.980
+Reactivity (mk): -20.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.0
+========================================
+Exit Irradiation 1: 1.796, Exit Irradiation 2: 2.922
+Reactivity (mk): -17.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.44
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.36
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.958
+Reactivity (mk): -20.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.93
+========================================
+Exit Irradiation 1: 1.869, Exit Irradiation 2: 1.517
+Reactivity (mk): 7.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.51
+========================================
+Exit Irradiation 1: 1.894, Exit Irradiation 2: 2.965
+Reactivity (mk): -20.21
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.79
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 1.514
+Reactivity (mk): 7.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.51
+========================================
+Exit Irradiation 1: 1.500, Exit Irradiation 2: 1.222
+Reactivity (mk): 17.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1017.74
+========================================
+Exit Irradiation 1: 1.507, Exit Irradiation 2: 2.978
+Reactivity (mk): -12.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.83
+========================================
+Exit Irradiation 1: 1.411, Exit Irradiation 2: 2.575
+Reactivity (mk): -4.95
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.05
+========================================
+Exit Irradiation 1: 1.783, Exit Irradiation 2: 2.781
+Reactivity (mk): -15.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.74
+========================================
+Exit Irradiation 1: 1.794, Exit Irradiation 2: 2.215
+Reactivity (mk): -5.92
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.08
+========================================
+Exit Irradiation 1: 1.872, Exit Irradiation 2: 2.975
+Reactivity (mk): -19.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.11
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.973
+Reactivity (mk): -20.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.74
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.41
+========================================
+Exit Irradiation 1: 1.834, Exit Irradiation 2: 2.935
+Reactivity (mk): -18.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.47
+========================================
+Exit Irradiation 1: 1.813, Exit Irradiation 2: 2.978
+Reactivity (mk): -18.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.31
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.956
+Reactivity (mk): -19.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.19
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.14
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.86
+========================================
+Exit Irradiation 1: 1.116, Exit Irradiation 2: 1.904
+Reactivity (mk): 10.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.26
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.009
+Reactivity (mk): -3.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 996.85
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 2.938
+Reactivity (mk): -19.63
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.37
+========================================
+Exit Irradiation 1: 1.198, Exit Irradiation 2: 1.756
+Reactivity (mk): 11.65
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.65
+========================================
+Exit Irradiation 1: 1.754, Exit Irradiation 2: 1.524
+Reactivity (mk): 8.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.72
+========================================
+Exit Irradiation 1: 1.788, Exit Irradiation 2: 2.996
+Reactivity (mk): -18.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.6
+========================================
+Exit Irradiation 1: 1.845, Exit Irradiation 2: 2.385
+Reactivity (mk): -9.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.09
+========================================
+Exit Irradiation 1: 1.811, Exit Irradiation 2: 2.907
+Reactivity (mk): -17.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.34
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.982
+Reactivity (mk): -20.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.59
+========================================
+Exit Irradiation 1: 1.837, Exit Irradiation 2: 2.628
+Reactivity (mk): -13.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.07
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.987
+Reactivity (mk): -20.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.41
+========================================
+Exit Irradiation 1: 1.846, Exit Irradiation 2: 2.989
+Reactivity (mk): -19.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.46
+========================================
+Exit Irradiation 1: 1.888, Exit Irradiation 2: 1.852
+Reactivity (mk): 0.01
+Max Channel Power: 7.163 MW
+Max Bundle Power: 0.8559 MW
+Penalty: 1008.0189
+========================================
+Exit Irradiation 1: 1.628, Exit Irradiation 2: 2.812
+Reactivity (mk): -12.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.45
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 1.587
+Reactivity (mk): 6.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.47
+========================================
+Exit Irradiation 1: 1.889, Exit Irradiation 2: 2.959
+Reactivity (mk): -20.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.98
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.47
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 2.961
+Reactivity (mk): -20.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.74
+========================================
+Exit Irradiation 1: 1.894, Exit Irradiation 2: 2.978
+Reactivity (mk): -20.39
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.61
+========================================
+Exit Irradiation 1: 1.559, Exit Irradiation 2: 1.371
+Reactivity (mk): 14.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1014.2
+========================================
+Exit Irradiation 1: 1.638, Exit Irradiation 2: 2.713
+Reactivity (mk): -11.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.64
+========================================
+Exit Irradiation 1: 1.334, Exit Irradiation 2: 1.842
+Reactivity (mk): 8.19
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.19
+========================================
+Exit Irradiation 1: 1.419, Exit Irradiation 2: 2.542
+Reactivity (mk): -4.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.36
+========================================
+Exit Irradiation 1: 1.634, Exit Irradiation 2: 2.948
+Reactivity (mk): -14.49
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.51
+========================================
+Exit Irradiation 1: 1.750, Exit Irradiation 2: 2.993
+Reactivity (mk): -17.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.45
+========================================
+Exit Irradiation 1: 1.718, Exit Irradiation 2: 2.996
+Reactivity (mk): -16.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.09
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.987
+Reactivity (mk): -20.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.75
+========================================
+Exit Irradiation 1: 1.888, Exit Irradiation 2: 1.234
+Reactivity (mk): 13.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.32
+========================================
+Exit Irradiation 1: 1.534, Exit Irradiation 2: 2.998
+Reactivity (mk): -12.99
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.01
+========================================
+Exit Irradiation 1: 1.789, Exit Irradiation 2: 2.281
+Reactivity (mk): -7.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.94
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 1.232
+Reactivity (mk): 13.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.25
+========================================
+Exit Irradiation 1: 1.307, Exit Irradiation 2: 2.957
+Reactivity (mk): -7.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.23
+========================================
+Exit Irradiation 1: 1.504, Exit Irradiation 2: 2.834
+Reactivity (mk): -10.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.7
+========================================
+Exit Irradiation 1: 1.326, Exit Irradiation 2: 1.382
+Reactivity (mk): 16.81
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1016.81
+========================================
+Exit Irradiation 1: 1.153, Exit Irradiation 2: 2.620
+Reactivity (mk): -0.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.17
+========================================
+Exit Irradiation 1: 1.898, Exit Irradiation 2: 1.903
+Reactivity (mk): -1.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 998.78
+========================================
+Exit Irradiation 1: 1.799, Exit Irradiation 2: 2.817
+Reactivity (mk): -16.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.89
+========================================
+Exit Irradiation 1: 1.658, Exit Irradiation 2: 2.993
+Reactivity (mk): -15.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.42
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.919
+Reactivity (mk): -19.34
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.66
+========================================
+Exit Irradiation 1: 1.693, Exit Irradiation 2: 2.911
+Reactivity (mk): -15.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.75
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.900
+Reactivity (mk): -19.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.71
+========================================
+Exit Irradiation 1: 1.900, Exit Irradiation 2: 2.925
+Reactivity (mk): -19.76
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.24
+========================================
+Exit Irradiation 1: 1.490, Exit Irradiation 2: 2.920
+Reactivity (mk): -11.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.9
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.929
+Reactivity (mk): -19.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.29
+========================================
+Exit Irradiation 1: 1.837, Exit Irradiation 2: 2.973
+Reactivity (mk): -19.13
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.87
+========================================
+Exit Irradiation 1: 1.790, Exit Irradiation 2: 2.768
+Reactivity (mk): -15.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.8
+========================================
+Exit Irradiation 1: 1.855, Exit Irradiation 2: 2.956
+Reactivity (mk): -19.27
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.73
+========================================
+Exit Irradiation 1: 1.846, Exit Irradiation 2: 2.979
+Reactivity (mk): -19.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.6
+========================================
+Exit Irradiation 1: 1.631, Exit Irradiation 2: 2.984
+Reactivity (mk): -14.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.11
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 2.976
+Reactivity (mk): -19.88
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.12
+========================================
+Exit Irradiation 1: 1.579, Exit Irradiation 2: 2.976
+Reactivity (mk): -13.68
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.32
+========================================
+Exit Irradiation 1: 1.886, Exit Irradiation 2: 1.390
+Reactivity (mk): 10.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.06
+========================================
+Exit Irradiation 1: 1.865, Exit Irradiation 2: 2.394
+Reactivity (mk): -10.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.58
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.367
+Reactivity (mk): -10.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.53
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.943
+Reactivity (mk): -19.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.17
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 1.735
+Reactivity (mk): 2.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.48
+========================================
+Exit Irradiation 1: 1.791, Exit Irradiation 2: 2.235
+Reactivity (mk): -6.24
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.76
+========================================
+Exit Irradiation 1: 1.866, Exit Irradiation 2: 2.843
+Reactivity (mk): -17.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.15
+========================================
+Exit Irradiation 1: 1.502, Exit Irradiation 2: 2.978
+Reactivity (mk): -12.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.94
+========================================
+Exit Irradiation 1: 1.879, Exit Irradiation 2: 2.829
+Reactivity (mk): -17.9
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.1
+========================================
+Exit Irradiation 1: 1.852, Exit Irradiation 2: 2.359
+Reactivity (mk): -9.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.44
+========================================
+Exit Irradiation 1: 1.330, Exit Irradiation 2: 1.893
+Reactivity (mk): 7.34
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.34
+========================================
+Exit Irradiation 1: 1.851, Exit Irradiation 2: 2.424
+Reactivity (mk): -10.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.29
+========================================
+Exit Irradiation 1: 1.730, Exit Irradiation 2: 2.948
+Reactivity (mk): -16.52
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.48
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.965
+Reactivity (mk): -19.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.29
+========================================
+Exit Irradiation 1: 1.886, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.48
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.52
+========================================
+Exit Irradiation 1: 1.853, Exit Irradiation 2: 2.924
+Reactivity (mk): -18.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.23
+========================================
+Exit Irradiation 1: 1.801, Exit Irradiation 2: 2.946
+Reactivity (mk): -18.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.0
+========================================
+Exit Irradiation 1: 1.844, Exit Irradiation 2: 2.910
+Reactivity (mk): -18.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.62
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.900
+Reactivity (mk): -18.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.16
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 1.450
+Reactivity (mk): 8.65
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.65
+========================================
+Exit Irradiation 1: 1.526, Exit Irradiation 2: 2.983
+Reactivity (mk): -12.63
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.37
+========================================
+Exit Irradiation 1: 1.832, Exit Irradiation 2: 2.902
+Reactivity (mk): -18.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.98
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.916
+Reactivity (mk): -19.17
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.83
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.204
+Reactivity (mk): -7.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.84
+========================================
+Exit Irradiation 1: 1.883, Exit Irradiation 2: 2.988
+Reactivity (mk): -20.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.7
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.7
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.3
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 2.979
+Reactivity (mk): -20.51
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.49
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.982
+Reactivity (mk): -20.39
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.61
+========================================
+Exit Irradiation 1: 1.610, Exit Irradiation 2: 2.050
+Reactivity (mk): 0.15
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.15
+========================================
+Exit Irradiation 1: 1.137, Exit Irradiation 2: 2.989
+Reactivity (mk): -4.82
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.18
+========================================
+Exit Irradiation 1: 1.333, Exit Irradiation 2: 2.981
+Reactivity (mk): -8.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.43
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.974
+Reactivity (mk): -20.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.68
+========================================
+Exit Irradiation 1: 1.581, Exit Irradiation 2: 2.669
+Reactivity (mk): -9.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.41
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.924
+Reactivity (mk): -19.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.4
+========================================
+Exit Irradiation 1: 1.765, Exit Irradiation 2: 2.918
+Reactivity (mk): -16.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.15
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.987
+Reactivity (mk): -20.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.69
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.877
+Reactivity (mk): -18.91
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.09
+========================================
+Exit Irradiation 1: 1.817, Exit Irradiation 2: 2.237
+Reactivity (mk): -6.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.29
+========================================
+Exit Irradiation 1: 1.880, Exit Irradiation 2: 2.931
+Reactivity (mk): -19.43
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.57
+========================================
+Exit Irradiation 1: 1.886, Exit Irradiation 2: 2.777
+Reactivity (mk): -17.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.75
+========================================
+Exit Irradiation 1: 1.626, Exit Irradiation 2: 2.805
+Reactivity (mk): -12.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.58
+========================================
+Exit Irradiation 1: 1.804, Exit Irradiation 2: 2.777
+Reactivity (mk): -15.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.38
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 1.416
+Reactivity (mk): 9.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.36
+========================================
+Exit Irradiation 1: 1.815, Exit Irradiation 2: 2.951
+Reactivity (mk): -18.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.64
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.978
+Reactivity (mk): -20.04
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.96
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.931
+Reactivity (mk): -19.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.69
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.994
+Reactivity (mk): -20.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.74
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.490
+Reactivity (mk): -12.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.54
+========================================
+Exit Irradiation 1: 1.900, Exit Irradiation 2: 2.970
+Reactivity (mk): -20.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.59
+========================================
+Exit Irradiation 1: 1.437, Exit Irradiation 2: 2.385
+Reactivity (mk): -2.62
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.38
+========================================
+Exit Irradiation 1: 1.618, Exit Irradiation 2: 2.980
+Reactivity (mk): -14.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.44
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.984
+Reactivity (mk): -20.04
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.96
+========================================
+Exit Irradiation 1: 1.876, Exit Irradiation 2: 2.912
+Reactivity (mk): -19.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.93
+========================================
+Exit Irradiation 1: 1.883, Exit Irradiation 2: 2.982
+Reactivity (mk): -20.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.78
+========================================
+Exit Irradiation 1: 1.635, Exit Irradiation 2: 2.976
+Reactivity (mk): -14.87
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.13
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 3.000
+Reactivity (mk): -20.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.25
+========================================
+Exit Irradiation 1: 1.781, Exit Irradiation 2: 2.855
+Reactivity (mk): -16.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.7
+========================================
+Exit Irradiation 1: 1.622, Exit Irradiation 2: 2.047
+Reactivity (mk): 0.01
+Max Channel Power: 6.449 MW
+Max Bundle Power: 0.8591 MW
+Penalty: 1000.8591
+========================================
+Exit Irradiation 1: 1.796, Exit Irradiation 2: 1.718
+Reactivity (mk): 4.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.09
+========================================
+Exit Irradiation 1: 1.874, Exit Irradiation 2: 2.986
+Reactivity (mk): -20.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.91
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.984
+Reactivity (mk): -19.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.03
+========================================
+Exit Irradiation 1: 1.661, Exit Irradiation 2: 2.998
+Reactivity (mk): -15.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.29
+========================================
+Exit Irradiation 1: 1.410, Exit Irradiation 2: 2.999
+Reactivity (mk): -10.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.63
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 1.454
+Reactivity (mk): 8.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.71
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 1.966
+Reactivity (mk): -2.45
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.55
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.28
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 1.847
+Reactivity (mk): 0.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1000.32
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.981
+Reactivity (mk): -20.5
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.5
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.528
+Reactivity (mk): -13.18
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.82
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 1.342
+Reactivity (mk): 11.03
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.03
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 1.631
+Reactivity (mk): 4.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.77
+========================================
+Exit Irradiation 1: 1.456, Exit Irradiation 2: 2.649
+Reactivity (mk): -6.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.15
+========================================
+Exit Irradiation 1: 1.876, Exit Irradiation 2: 1.359
+Reactivity (mk): 10.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.83
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.14
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.86
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 1.604
+Reactivity (mk): 5.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.29
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 2.371
+Reactivity (mk): -10.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.9
+========================================
+Exit Irradiation 1: 1.561, Exit Irradiation 2: 2.972
+Reactivity (mk): -13.24
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.76
+========================================
+Exit Irradiation 1: 1.872, Exit Irradiation 2: 2.928
+Reactivity (mk): -19.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.78
+========================================
+Exit Irradiation 1: 1.882, Exit Irradiation 2: 1.392
+Reactivity (mk): 10.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.06
+========================================
+Exit Irradiation 1: 1.813, Exit Irradiation 2: 2.981
+Reactivity (mk): -18.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.27
+========================================
+Exit Irradiation 1: 1.780, Exit Irradiation 2: 1.248
+Reactivity (mk): 14.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1014.16
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.925
+Reactivity (mk): -19.7
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.3
+========================================
+Exit Irradiation 1: 1.529, Exit Irradiation 2: 1.716
+Reactivity (mk): 7.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.75
+========================================
+Exit Irradiation 1: 1.816, Exit Irradiation 2: 2.970
+Reactivity (mk): -18.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.36
+========================================
+Exit Irradiation 1: 1.777, Exit Irradiation 2: 2.889
+Reactivity (mk): -16.7
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.3
+========================================
+Exit Irradiation 1: 1.653, Exit Irradiation 2: 2.977
+Reactivity (mk): -15.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.74
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.806
+Reactivity (mk): -17.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.2
+========================================
+Exit Irradiation 1: 1.872, Exit Irradiation 2: 2.737
+Reactivity (mk): -16.35
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.65
+========================================
+Exit Irradiation 1: 1.618, Exit Irradiation 2: 1.416
+Reactivity (mk): 12.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1012.59
+========================================
+Exit Irradiation 1: 1.706, Exit Irradiation 2: 2.987
+Reactivity (mk): -16.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.47
+========================================
+Exit Irradiation 1: 1.882, Exit Irradiation 2: 1.784
+Reactivity (mk): 1.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.55
+========================================
+Exit Irradiation 1: 1.337, Exit Irradiation 2: 2.988
+Reactivity (mk): -8.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.27
+========================================
+Exit Irradiation 1: 1.843, Exit Irradiation 2: 1.899
+Reactivity (mk): -0.36
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 999.64
+========================================
+Exit Irradiation 1: 1.666, Exit Irradiation 2: 2.598
+Reactivity (mk): -10.19
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.81
+========================================
+Exit Irradiation 1: 1.781, Exit Irradiation 2: 2.983
+Reactivity (mk): -18.08
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.92
+========================================
+Exit Irradiation 1: 1.299, Exit Irradiation 2: 2.987
+Reactivity (mk): -7.95
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.05
+========================================
+Exit Irradiation 1: 1.881, Exit Irradiation 2: 2.988
+Reactivity (mk): -20.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.74
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.673
+Reactivity (mk): -15.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.27
+========================================
+Exit Irradiation 1: 1.468, Exit Irradiation 2: 1.872
+Reactivity (mk): 5.65
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.65
+========================================
+Exit Irradiation 1: 1.354, Exit Irradiation 2: 2.988
+Reactivity (mk): -9.08
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.92
+========================================
+Exit Irradiation 1: 1.252, Exit Irradiation 2: 2.829
+Reactivity (mk): -5.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 994.8
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 1.529
+Reactivity (mk): 7.2
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1007.2
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.855
+Reactivity (mk): -18.56
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.44
+========================================
+Exit Irradiation 1: 1.809, Exit Irradiation 2: 2.810
+Reactivity (mk): -16.21
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.79
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.092
+Reactivity (mk): -4.83
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.17
+========================================
+Exit Irradiation 1: 1.690, Exit Irradiation 2: 2.831
+Reactivity (mk): -14.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.91
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.563
+Reactivity (mk): -13.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.4
+========================================
+Exit Irradiation 1: 1.414, Exit Irradiation 2: 2.960
+Reactivity (mk): -10.0
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.0
+========================================
+Exit Irradiation 1: 1.728, Exit Irradiation 2: 2.966
+Reactivity (mk): -16.72
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.28
+========================================
+Exit Irradiation 1: 1.780, Exit Irradiation 2: 2.978
+Reactivity (mk): -17.99
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.01
+========================================
+Exit Irradiation 1: 1.861, Exit Irradiation 2: 2.938
+Reactivity (mk): -19.14
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.86
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 1.794
+Reactivity (mk): 1.21
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1001.21
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.960
+Reactivity (mk): -20.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.84
+========================================
+Exit Irradiation 1: 1.732, Exit Irradiation 2: 2.204
+Reactivity (mk): -4.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.31
+========================================
+Exit Irradiation 1: 1.495, Exit Irradiation 2: 2.768
+Reactivity (mk): -9.25
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.75
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 1.848
+Reactivity (mk): -0.06
+Max Channel Power: 7.199 MW
+Max Bundle Power: 0.8567 MW
+Penalty: 1008.0557
+========================================
+Exit Irradiation 1: 1.812, Exit Irradiation 2: 2.530
+Reactivity (mk): -11.84
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.16
+========================================
+Exit Irradiation 1: 1.876, Exit Irradiation 2: 2.978
+Reactivity (mk): -20.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.98
+========================================
+Exit Irradiation 1: 1.303, Exit Irradiation 2: 2.976
+Reactivity (mk): -7.9
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.1
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 1.327
+Reactivity (mk): 11.42
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.42
+========================================
+Exit Irradiation 1: 1.829, Exit Irradiation 2: 2.887
+Reactivity (mk): -17.74
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.26
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 2.745
+Reactivity (mk): -16.73
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.27
+========================================
+Exit Irradiation 1: 1.860, Exit Irradiation 2: 1.639
+Reactivity (mk): 4.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1004.97
+========================================
+Exit Irradiation 1: 1.875, Exit Irradiation 2: 2.994
+Reactivity (mk): -20.22
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.78
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 1.387
+Reactivity (mk): 10.14
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.14
+========================================
+Exit Irradiation 1: 1.439, Exit Irradiation 2: 2.504
+Reactivity (mk): -4.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.54
+========================================
+Exit Irradiation 1: 1.277, Exit Irradiation 2: 2.967
+Reactivity (mk): -7.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.72
+========================================
+Exit Irradiation 1: 1.803, Exit Irradiation 2: 2.966
+Reactivity (mk): -18.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.69
+========================================
+Exit Irradiation 1: 1.373, Exit Irradiation 2: 3.000
+Reactivity (mk): -9.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.39
+========================================
+Exit Irradiation 1: 1.898, Exit Irradiation 2: 2.752
+Reactivity (mk): -17.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.91
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.34
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 2.990
+Reactivity (mk): -20.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.62
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 2.980
+Reactivity (mk): -20.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.53
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.669
+Reactivity (mk): -15.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.39
+========================================
+Exit Irradiation 1: 1.891, Exit Irradiation 2: 2.923
+Reactivity (mk): -19.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.46
+========================================
+Exit Irradiation 1: 1.473, Exit Irradiation 2: 1.690
+Reactivity (mk): 9.04
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.04
+========================================
+Exit Irradiation 1: 1.858, Exit Irradiation 2: 2.972
+Reactivity (mk): -19.55
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.45
+========================================
+Exit Irradiation 1: 1.224, Exit Irradiation 2: 2.986
+Reactivity (mk): -6.44
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 993.56
+========================================
+Exit Irradiation 1: 1.873, Exit Irradiation 2: 2.850
+Reactivity (mk): -18.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.9
+========================================
+Exit Irradiation 1: 1.182, Exit Irradiation 2: 1.236
+Reactivity (mk): 21.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1021.09
+========================================
+Exit Irradiation 1: 1.883, Exit Irradiation 2: 2.989
+Reactivity (mk): -20.32
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.68
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.925
+Reactivity (mk): -19.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.34
+========================================
+Exit Irradiation 1: 1.776, Exit Irradiation 2: 1.639
+Reactivity (mk): 6.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.02
+========================================
+Exit Irradiation 1: 1.299, Exit Irradiation 2: 1.769
+Reactivity (mk): 10.01
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.01
+========================================
+Exit Irradiation 1: 1.822, Exit Irradiation 2: 1.718
+Reactivity (mk): 3.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1003.75
+========================================
+Exit Irradiation 1: 1.468, Exit Irradiation 2: 2.988
+Reactivity (mk): -11.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 988.54
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.066
+Reactivity (mk): -4.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.59
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.41
+========================================
+Exit Irradiation 1: 1.691, Exit Irradiation 2: 2.966
+Reactivity (mk): -15.93
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.07
+========================================
+Exit Irradiation 1: 1.706, Exit Irradiation 2: 2.990
+Reactivity (mk): -16.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.43
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.941
+Reactivity (mk): -19.82
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.18
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 2.991
+Reactivity (mk): -20.68
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.32
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 1.439
+Reactivity (mk): 9.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1009.11
+========================================
+Exit Irradiation 1: 1.748, Exit Irradiation 2: 2.426
+Reactivity (mk): -8.92
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.08
+========================================
+Exit Irradiation 1: 1.894, Exit Irradiation 2: 2.244
+Reactivity (mk): -8.1
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.9
+========================================
+Exit Irradiation 1: 1.895, Exit Irradiation 2: 2.969
+Reactivity (mk): -20.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.71
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.798
+Reactivity (mk): -17.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.31
+========================================
+Exit Irradiation 1: 1.659, Exit Irradiation 2: 2.970
+Reactivity (mk): -15.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.7
+========================================
+Exit Irradiation 1: 1.899, Exit Irradiation 2: 1.322
+Reactivity (mk): 11.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1011.37
+========================================
+Exit Irradiation 1: 1.886, Exit Irradiation 2: 2.988
+Reactivity (mk): -20.37
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.63
+========================================
+Exit Irradiation 1: 1.898, Exit Irradiation 2: 2.991
+Reactivity (mk): -20.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.34
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 1.541
+Reactivity (mk): 6.66
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1006.66
+========================================
+Exit Irradiation 1: 1.459, Exit Irradiation 2: 2.855
+Reactivity (mk): -9.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.36
+========================================
+Exit Irradiation 1: 1.331, Exit Irradiation 2: 2.997
+Reactivity (mk): -8.71
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 991.29
+========================================
+Exit Irradiation 1: 1.877, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.29
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.71
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.941
+Reactivity (mk): -19.53
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.47
+========================================
+Exit Irradiation 1: 1.543, Exit Irradiation 2: 2.975
+Reactivity (mk): -12.89
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.11
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.62
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.873
+Reactivity (mk): -18.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.15
+========================================
+Exit Irradiation 1: 1.210, Exit Irradiation 2: 2.694
+Reactivity (mk): -2.77
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 997.23
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.994
+Reactivity (mk): -20.58
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.42
+========================================
+Exit Irradiation 1: 1.384, Exit Irradiation 2: 1.766
+Reactivity (mk): 8.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.85
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 2.374
+Reactivity (mk): -10.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 989.41
+========================================
+Exit Irradiation 1: 1.882, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.6
+========================================
+Exit Irradiation 1: 1.889, Exit Irradiation 2: 2.875
+Reactivity (mk): -18.8
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.2
+========================================
+Exit Irradiation 1: 1.560, Exit Irradiation 2: 2.992
+Reactivity (mk): -13.47
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.53
+========================================
+Exit Irradiation 1: 1.885, Exit Irradiation 2: 2.994
+Reactivity (mk): -20.43
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.57
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 1.216
+Reactivity (mk): 13.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.6
+========================================
+Exit Irradiation 1: 1.701, Exit Irradiation 2: 1.868
+Reactivity (mk): 2.3
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.3
+========================================
+Exit Irradiation 1: 1.751, Exit Irradiation 2: 2.999
+Reactivity (mk): -17.65
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 982.35
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 1.244
+Reactivity (mk): 13.06
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.06
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.745
+Reactivity (mk): -16.96
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.04
+========================================
+Exit Irradiation 1: 1.872, Exit Irradiation 2: 2.999
+Reactivity (mk): -20.23
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.77
+========================================
+Exit Irradiation 1: 1.889, Exit Irradiation 2: 2.998
+Reactivity (mk): -20.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.43
+========================================
+Exit Irradiation 1: 1.672, Exit Irradiation 2: 3.000
+Reactivity (mk): -15.97
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 984.03
+========================================
+Exit Irradiation 1: 1.408, Exit Irradiation 2: 1.742
+Reactivity (mk): 8.96
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1008.96
+========================================
+Exit Irradiation 1: 1.871, Exit Irradiation 2: 2.874
+Reactivity (mk): -18.41
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.59
+========================================
+Exit Irradiation 1: 1.887, Exit Irradiation 2: 2.989
+Reactivity (mk): -20.4
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.6
+========================================
+Exit Irradiation 1: 1.889, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.39
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.61
+========================================
+Exit Irradiation 1: 1.855, Exit Irradiation 2: 2.991
+Reactivity (mk): -19.76
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.24
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.991
+Reactivity (mk): -20.64
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.36
+========================================
+Exit Irradiation 1: 1.702, Exit Irradiation 2: 1.729
+Reactivity (mk): 5.11
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1005.11
+========================================
+Exit Irradiation 1: 1.878, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.16
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.84
+========================================
+Exit Irradiation 1: 1.870, Exit Irradiation 2: 2.337
+Reactivity (mk): -9.46
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.54
+========================================
+Exit Irradiation 1: 1.763, Exit Irradiation 2: 2.422
+Reactivity (mk): -9.12
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 990.88
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.603
+Reactivity (mk): -14.52
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.48
+========================================
+Exit Irradiation 1: 1.858, Exit Irradiation 2: 2.631
+Reactivity (mk): -14.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 985.62
+========================================
+Exit Irradiation 1: 1.587, Exit Irradiation 2: 2.964
+Reactivity (mk): -13.69
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.31
+========================================
+Exit Irradiation 1: 1.350, Exit Irradiation 2: 2.900
+Reactivity (mk): -7.98
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 992.02
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 1.242
+Reactivity (mk): 13.07
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1013.07
+========================================
+Exit Irradiation 1: 1.135, Exit Irradiation 2: 1.898
+Reactivity (mk): 10.09
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1010.09
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.955
+Reactivity (mk): -20.02
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.98
+========================================
+Exit Irradiation 1: 1.880, Exit Irradiation 2: 2.991
+Reactivity (mk): -20.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.72
+========================================
+Exit Irradiation 1: 1.893, Exit Irradiation 2: 2.970
+Reactivity (mk): -20.26
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.74
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 1.718
+Reactivity (mk): 2.85
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 1002.85
+========================================
+Exit Irradiation 1: 1.803, Exit Irradiation 2: 2.979
+Reactivity (mk): -18.49
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 981.51
+========================================
+Exit Irradiation 1: 1.518, Exit Irradiation 2: 2.994
+Reactivity (mk): -12.6
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 987.4
+========================================
+Exit Irradiation 1: 1.890, Exit Irradiation 2: 2.996
+Reactivity (mk): -20.57
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.43
+========================================
+Exit Irradiation 1: 1.234, Exit Irradiation 2: 2.803
+Reactivity (mk): -4.54
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 995.46
+========================================
+Exit Irradiation 1: 1.706, Exit Irradiation 2: 2.970
+Reactivity (mk): -16.31
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 983.69
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.38
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.62
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.993
+Reactivity (mk): -20.67
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.33
+========================================
+Exit Irradiation 1: 1.894, Exit Irradiation 2: 2.992
+Reactivity (mk): -20.59
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.41
+========================================
+Exit Irradiation 1: 1.570, Exit Irradiation 2: 2.986
+Reactivity (mk): -13.61
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 986.39
+========================================
+Exit Irradiation 1: 1.892, Exit Irradiation 2: 2.903
+Reactivity (mk): -19.27
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 980.73
+========================================
+Exit Irradiation 1: 1.884, Exit Irradiation 2: 2.985
+Reactivity (mk): -20.28
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.72
+========================================
+Exit Irradiation 1: 1.897, Exit Irradiation 2: 2.999
+Reactivity (mk): -20.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.25
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 3.000
+Reactivity (mk): -20.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.25
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 3.000
+Reactivity (mk): -20.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.25
+========================================
+Exit Irradiation 1: 1.896, Exit Irradiation 2: 3.000
+Reactivity (mk): -20.75
+Max Channel Power: None MW
+Max Bundle Power: None MW
+Penalty: 979.25
+========================================
